@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -21,4 +21,15 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #F06;
+}
+.content {
+  height: 100%;
 }

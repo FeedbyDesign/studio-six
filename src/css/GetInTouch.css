@@ -1,0 +1,12 @@
+.GetInTouch {
+  background-color: white;
+  height: 50px;
+  font-size: 24px;
+  line-height: 50px;
+}
+.link {
+  color: black;
+}
+.link:hover {
+  text-decoration: none;
+}

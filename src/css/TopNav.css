@@ -1,0 +1,17 @@
+.TopNav {
+  height: 20%;
+  float: left;
+}
+.logo {
+  display: inline-block;
+}
+.menuItem {
+  display: inline-block;
+  height: 50%;
+  margin: 10px
+}
+.focus {
+  display: inline-block;
+  height: 100%;
+  font-size: 1.6em;
+}
