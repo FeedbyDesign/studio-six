@@ -1,0 +1,43 @@
+.studio {
+  font-size: 4em;
+  line-height: 100%;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+}
+.six {
+  margin-top: -7px;
+  font-size: 4em;
+  line-height: 100%;
+  font-weight: bold;
+  text-align: left;
+  color: #E5007D;
+  letter-spacing: 9px;
+  display: inline;
+  float: left;
+}
+.block-small {
+  display: inline;
+  float: left;
+}
+.rehearse {
+  margin: 0 0 6px 0;
+  padding: 2px;
+  font-size: 0.73em;
+  line-height: 0.9em;
+  font-weight: bold;
+  text-align: left;
+  background-color: #E5007D;
+  color: white;
+  /*letter-spacing: 9px;*/
+}
+.edit {
+  padding: 3px 2px;
+  font-size: 1.3em;
+  line-height: 0.8em;
+  font-weight: bold;
+  text-align: left;
+  background-color: white;
+  color: balck;
+  /*letter-spacing: 9px;*/
+}
