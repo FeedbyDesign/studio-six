@@ -3,7 +3,7 @@ import './css/Intro.css'
 
 const Intro = () => {
   return (
-    <div>
+    <div className="tagline">
       <div className="studio">STUDIO</div>
       <div className="six">SIX</div>
       <div className="block-small">

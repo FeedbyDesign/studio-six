@@ -1,3 +1,8 @@
+.tagline {
+  width: 240px;
+  margin: auto;
+  /* TODO: Find better solution because if wrong typo... */
+}
 .studio {
   font-size: 4em;
   line-height: 100%;

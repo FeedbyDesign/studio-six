@@ -1,5 +1,6 @@
 .App {
   background-color: black;
+  /*padding-top: 150px;*/
 }
 
 .App-logo {
@@ -30,6 +31,11 @@ a {
 a:hover {
   color: #F06;
 }
-.content {
+.container-vertical {
   height: 100%;
+}
+.content-vertical {
+  width: 100%;
+  margin: 100px 0;
+  /*height: 300px;*/
 }

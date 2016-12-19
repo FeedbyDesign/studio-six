@@ -8,7 +8,7 @@ const TopNav = (props) => {
   return (
     <div className="TopNav uk-position-top">
       <Link to="/">
-        <img src={logo} className={(props.focus==='/') ? "menuItem focus":"menuItem"}></img>
+        <img alt="Studio Six" src={logo} className={(props.focus==='/') ? "menuItem focus":"menuItem"}></img>
       </Link>
       <Link to="/studio">
         <div className={(props.focus==='/studio') ? "menuItem focus":"menuItem"}>
