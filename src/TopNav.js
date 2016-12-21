@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
-import logo from './img/logo_200px.png';
+import logo from './img/logo_neg_200.png';
 import './css/TopNav.css';
 
 const TopNav = (props) => {

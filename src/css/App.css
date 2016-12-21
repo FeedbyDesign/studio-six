@@ -1,8 +1,15 @@
+.hidden {
+  display: none;
+}
+
 .App {
   background-color: black;
   min-height: 100%;
   /*height: 100vh;*/
   /*padding-top: 150px;*/
+}
+.App-center {
+  text-align: center;
 }
 
 a {
@@ -10,7 +17,7 @@ a {
   color: white;
 }
 a:hover {
-  color: #F06;
+  color: #E5007D;
 }
 .container-vertical {
   height: 100%;

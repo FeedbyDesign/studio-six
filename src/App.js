@@ -41,7 +41,7 @@ class App extends Component {
   render() {
     return (
       <div className="App" onWheel={this.handleWheel.bind(this)}>
-        <div className="uk-container uk-container-center uk-text-center uk-height-1-1">
+        <div className="uk-container uk-container-center App-center uk-height-1-1">
           <TopNav focus={this.state.currentPage}/>
           <div className="container-vertical uk-vertical-align">
             <div className="content-vertical uk-vertical-align-middle">

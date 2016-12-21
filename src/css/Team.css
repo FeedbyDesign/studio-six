@@ -1,0 +1,55 @@
+.TeamMember-box {
+  background-color: #E5007D;
+  margin: 20px;
+  width: 314px;
+  height: 182px;
+  position: relative;
+}
+.TeamMember-name {
+  font-size: 1.8em;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 50%;
+  color: white;
+  padding: 20px 0 10px 10px;
+  text-align: left;
+}
+.TeamMember-skills {
+  width: 50%;
+  float: right;
+  text-align: left;
+}
+.TeamMember-skill {
+  display: inline-block;
+  margin: 1px;
+  padding: 0 3px;
+  background-color: black;
+  text-transform: uppercase;
+  color: #E5007D;
+  font-size: 0.9em;
+  margin-right: 5px;
+}
+.TeamMember-contacts {
+  clear: both;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+  /*left: 50%;*/
+}
+.TeamMember-contact {
+  display: inline;
+  font-size: 0.8em;
+  color: white;
+  /*position: relative; left: -50%;*/
+}
+.TeamMember-contact--bar {
+  color: black;
+}
+.TeamMember-contact--email:hover {
+  color: black;
+  text-decoration: none;
+}
