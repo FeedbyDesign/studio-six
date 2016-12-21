@@ -1,4 +1,9 @@
 .GetInTouch {
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*height: 50px;*/
   background-color: #E5007D;
   height: 50px;
   font-size: 24px;

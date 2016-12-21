@@ -10,7 +10,6 @@ class App extends Component {
     super(props)
     this.state = {
       currentPage: null,
-
     }
   }
   componentDidMount() {
@@ -41,7 +40,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App uk-height-viewport" onWheel={this.handleWheel.bind(this)}>
+      <div className="App" onWheel={this.handleWheel.bind(this)}>
         <div className="uk-container uk-container-center uk-text-center uk-height-1-1">
           <TopNav focus={this.state.currentPage}/>
           <div className="container-vertical uk-vertical-align">

@@ -4,7 +4,7 @@ import './css/GetInTouch.css'
 
 const GetInTouch = () => {
   return (
-    <div className="uk-position-bottom GetInTouch">
+    <div className="GetInTouch">
 
       <Link to="/team" className="link">GET IN TOUCH</Link>
     </div>

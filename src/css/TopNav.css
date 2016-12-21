@@ -2,16 +2,24 @@
   height: 20%;
   float: left;
 }
-.logo {
+.TopNav-logo-wrapper {
+  display: block;
+  height: 50px;
+}
+.TopNav-logo {
   display: inline-block;
+  margin: 10px;
+  font-size: 1em;
+  height: 50px;
 }
 .menuItem {
   display: inline-block;
-  height: 50%;
-  margin: 10px
+  margin: 10px;
+  font-size: 1em;
+  width: 120px;
 }
 .focus {
   display: inline-block;
-  height: 100%;
-  font-size: 1.6em;
+  font-size: 1.3em;
+  color: #E5007D
 }

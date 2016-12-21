@@ -1,7 +1,13 @@
+.intro-logo {
+  margin-top: 8%;
+  height: 250px;
+}
+
+/*
 .tagline {
   width: 240px;
   margin: auto;
-  /* TODO: Find better solution because if wrong typo... */
+  margin-top: 10%;
 }
 .studio {
   font-size: 4em;
@@ -34,7 +40,6 @@
   text-align: left;
   background-color: #E5007D;
   color: white;
-  /*letter-spacing: 9px;*/
 }
 .edit {
   padding: 3px 2px;
@@ -44,5 +49,5 @@
   text-align: left;
   background-color: white;
   color: balck;
-  /*letter-spacing: 9px;*/
 }
+*/

@@ -1,10 +1,22 @@
-.container {
-
+.sliderContainer {
+  height: 300px;
 }
-.wrapper {
-  /*height: 20%;*/
-
+.slider {
+  height: 250px;
 }
 .image {
   padding: 15px;
+  height: 250px;
+}
+/* TODO: Needs clarification to set height and control images */
+.Studio__text--equipment {
+  color: black;
+  background-color: white;
+  display: inline-block;
+  padding: 0 4px 0 2px;
+  /*font-size: 2em;
+  line-height: 1.8em;*/
+}
+.iconsContainer {
+  /*width: 100%;*/
 }
