@@ -26,7 +26,7 @@ const Studio = () => {
   const sliderSettings = {
     className: "slider",
     // centerPadding: -50,
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 3,

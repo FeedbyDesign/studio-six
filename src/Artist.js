@@ -37,12 +37,12 @@ class Artist extends Component {
             src={process.env.PUBLIC_URL + '/covers/' + this.props.artistData.cover}
             alt={this.props.artistData.name}
             onMouseEnter={this.handleHide.bind(this)}
-            onClick={this.handleClick.bind(this)}
+            onTouchStart={this.handleClick.bind(this)}
             ></img>
           <div
             className={this.state.hovered ? "Artist-panelContent uk-overlay-panel" : "hidden Artist-panelContent uk-overlay-panel"}
             onMouseLeave={this.handleShow.bind(this)}
-            onClick={this.handleClick.bind(this)}
+            onTouchStart={this.handleClick.bind(this)}
             >
             <h4 className="Artist-name">{this.props.artistData.name}</h4>
             <div className="Artist-album">
