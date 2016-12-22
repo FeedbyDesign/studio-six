@@ -6,7 +6,7 @@ import equipmentJson from './JSON/equipment.js'
 
 import Equipment from './Equipment.js'
 
-const imgNumber = 12
+const imgNumber = 28
 
 const Studio = () => {
   // Prepare array of pictures
@@ -41,6 +41,10 @@ const Studio = () => {
         {
           breakpoint: 768,
           settings: { slidesToShow: 1 }
+        },
+        {
+          breakpoint: 960,
+          settings: { slidesToShow: 2 }
         }
       ]
     }

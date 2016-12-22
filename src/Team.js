@@ -5,7 +5,7 @@ import './css/Team.css'
 
 const members = [
   {
-    name: "Leroy Alexandre",
+    name: "Alexandre Leroy",
     skills: ["Sound Engineer", "Studio Manager", "FOH / In ear Mixer"],
     contact: {phone: "475 794 638", email: "alexandre"}
   },{
@@ -60,7 +60,7 @@ const Team = () => {
   }) // TeamMember
 
   return (
-    <div className="uk-grid uk-grid-width-1-1 uk-grid-width-medium-1-2 uk-grid-width-xlarge-1-3">
+    <div className="Team uk-grid uk-grid-width-1-1 uk-grid-width-medium-1-2 uk-grid-width-xlarge-1-3">
       {TeamMembers}
     </div>
   )

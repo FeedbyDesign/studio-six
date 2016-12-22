@@ -1,6 +1,13 @@
+.Team {
+  margin-top: 4vh;
+}
+.TeamMember {
+  padding: 20px;
+}
 .TeamMember-box {
   background-color: #E5007D;
-  margin: 20px;
+  /*margin: 20px;*/
+  margin: auto;
   width: 314px;
   height: 182px;
   position: relative;

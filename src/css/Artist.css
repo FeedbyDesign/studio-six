@@ -1,3 +1,6 @@
+.Artist {
+  margin-bottom: 20px;
+}
 .coverPhoto--hovered {
   /*background-color: #E5007D;*/
 }
@@ -8,22 +11,43 @@
 }
 .Artist-panelContent {
   background-color: #E5007D;
-  margin-left: 2.3vw;
+  margin: -1px;
   /*text-align: center;*/
   /*height: 100%;*/
   /*width: 200px;*/
   /*margin: auto;*/
   /*padding: 0 0 10px 10px;*/
+  /*position: relative;*/
 }
-.name {
-  font-size: 1.5em;
+.Artist-name {
+  font-size: 1.8em;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  text-align: left;
+  margin-bottom: 0px;
 }
-.skills {
-
+.Artist-album {
+  font-size: 1em;
+  color: white;
+  text-transform: uppercase;
+  /*font-weight: bold;*/
+  text-align: left;
 }
-.contact {
-
+.Artist-taskBy--box {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  text-align: left;
+}
+.Artist-taskBy {
+  text-align: left;
+  display: inline-block;
+  margin: 10px;
+  padding: 0 3px;
+  background-color: black;
+  text-transform: uppercase;
+  color: #E5007D;
+  font-size: 0.9em;
 }

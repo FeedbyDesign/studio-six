@@ -4,10 +4,11 @@ import './css/GetInTouch.css'
 
 const GetInTouch = () => {
   return (
-    <div className="GetInTouch">
-
-      <Link to="/team" className="link">GET IN TOUCH</Link>
-    </div>
+    <Link to="/team" className="link">
+      <div className="GetInTouch">
+        GET IN TOUCH
+      </div>
+    </Link>
   )
 }
 

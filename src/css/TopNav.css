@@ -5,12 +5,16 @@
 .TopNav-logo-wrapper {
   display: block;
   height: 50px;
+  margin: 0 0 10px 0;
 }
 .TopNav-logo {
   display: inline-block;
   margin: 10px;
   font-size: 1em;
   height: 50px;
+}
+.menuItem-wrapper {
+  /*max-width: 360;*/
 }
 .menuItem {
   display: inline-block;

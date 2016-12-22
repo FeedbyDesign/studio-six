@@ -1,12 +1,14 @@
 .sliderContainer {
-  height: 300px;
+  /*height: 300px;*/
+  min-height: 200px;
+  margin-bottom: 50px;
 }
 .slider {
-  height: 250px;
+  /*height: 250px;*/
 }
 .image {
   padding: 15px;
-  height: 250px;
+  /*height: 250px;*/
 }
 /* TODO: Needs clarification to set height and control images */
 .Studio__text--equipment {

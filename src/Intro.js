@@ -1,11 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router'
 import './css/Intro.css'
 import Logo from './img/logo_neg_600.png'
 
 const Intro = () => {
   return (
     <div>
-      <img src={Logo} className="intro-logo"></img>
+      <Link to="/studio">
+        <img src={Logo} className="intro-logo"></img>
+      </Link>
     </div>
   )
 }

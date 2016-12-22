@@ -14,6 +14,13 @@ class Artist extends Component {
   handleShow() {
     this.setState({hovered: false})
   }
+  handleClick() {
+    if (this.state.hovered) {
+      this.setState({hovered: false})
+    } else {
+      this.setState({hovered: true})
+    }
+  }
   // "name": "Saule",
   // "album": "Vous êtes ici",
   // "cover": "CD saule.jpg",
@@ -23,23 +30,27 @@ class Artist extends Component {
   // "taskBy": "Recorded by A.L.",
   render() {
     return (
-      <div className="uk-overlay">
-        <img
-          className={this.state.hovered ? "coverPhoto--hovered" : "coverPhoto"}
-          src={process.env.PUBLIC_URL + '/covers/' + this.props.artistData.cover}
-          alt={this.props.artistData.name}
-          onMouseEnter={this.handleHide.bind(this)}
-          ></img>
-        <div
-          className={this.state.hovered ? "Artist-panelContent uk-overlay-panel" : "hidden Artist-panelContent uk-overlay-panel"}
-          onMouseLeave={this.handleShow.bind(this)}
-          >
-          <h4 className="">{this.props.artistData.name}</h4>
-          <div className="">
-            <div>{this.props.artistData.album}</div>
-          </div>
-          <div className="">
-            <div>{this.props.artistData.taskBy}</div>
+      <div className="Artist">
+        <div className="uk-overlay">
+          <img
+            className={this.state.hovered ? "coverPhoto--hovered" : "coverPhoto"}
+            src={process.env.PUBLIC_URL + '/covers/' + this.props.artistData.cover}
+            alt={this.props.artistData.name}
+            onMouseEnter={this.handleHide.bind(this)}
+            onClick={this.handleClick.bind(this)}
+            ></img>
+          <div
+            className={this.state.hovered ? "Artist-panelContent uk-overlay-panel" : "hidden Artist-panelContent uk-overlay-panel"}
+            onMouseLeave={this.handleShow.bind(this)}
+            onClick={this.handleClick.bind(this)}
+            >
+            <h4 className="Artist-name">{this.props.artistData.name}</h4>
+            <div className="Artist-album">
+              <div>{this.props.artistData.album}</div>
+            </div>
+            <div className="Artist-taskBy--box">
+              <div className="Artist-taskBy">{this.props.artistData.taskBy}</div>
+            </div>
           </div>
         </div>
       </div>
