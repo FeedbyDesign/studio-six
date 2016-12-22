@@ -1,0 +1,41 @@
+.Equipment__text--catname {
+  color: black;
+  background-color: #E5007D;
+  display: inline-block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  padding: 0 4px 0 2px;
+  cursor: pointer;
+}
+.Equipment__drawer {
+  margin: 0 0 15px 0;
+}
+.Equipment__drawer-element {
+  color: #E5007D;
+  text-transform: uppercase;
+  /*background-color: white;*/
+}
+
+
+.iconWrapper {
+  position: relative;
+  margin-bottom: 20px;
+  /*width: 200px;
+  height: 100px;
+  border: 1px solid white;*/
+}
+.iconText {
+  /*font-size: */
+}
+.dropdown {
+  position: absolute;
+  bottom: 100%;
+  padding: 20px;
+}
+.dropdownWindow {
+  background-color: white;
+
+}
+.listElemDropdown {
+
+}

@@ -10,7 +10,6 @@ class App extends Component {
     super(props)
     this.state = {
       currentPage: null,
-
     }
   }
   componentDidMount() {
@@ -20,30 +19,32 @@ class App extends Component {
     this.setState({ currentPage: nextProps.location.pathname })
   }
   handleWheel(e) {
-    if (e.deltaY>-1) {
-      switch (this.state.currentPage) {
-        case '/': browserHistory.push('/studio'); break;
-        case '/studio': browserHistory.push('/artists'); break;
-        case '/artists': browserHistory.push('/team'); break;
-        default:
-      }
-    } else {
-      switch (this.state.currentPage) {
-        case '/team': browserHistory.push('/artists'); break;
-        case '/artists': browserHistory.push('/studio'); break;
-        case '/studio': browserHistory.push('/'); break;
-        default:
-      }
-    }
+    // if (window && window.innerHeight > 699) {
+    //   if (e.deltaY>-1) {
+    //     switch (this.state.currentPage) {
+    //       case '/': browserHistory.push('/studio'); break;
+    //       case '/studio': browserHistory.push('/artists'); break;
+    //       case '/artists': browserHistory.push('/team'); break;
+    //       default:
+    //     }
+    //   } else {
+    //     switch (this.state.currentPage) {
+    //       case '/team': browserHistory.push('/artists'); break;
+    //       case '/artists': browserHistory.push('/studio'); break;
+    //       case '/studio': browserHistory.push('/'); break;
+    //       default:
+    //     }
+    //   }
+    // }
   }
 
   render() {
     return (
-      <div className="App uk-height-viewport" onWheel={this.handleWheel.bind(this)}>
-        <div className="uk-container uk-container-center uk-text-center uk-height-1-1">
+      <div className="App" onWheel={this.handleWheel.bind(this)}>
+        <div className="uk-container uk-container-center App-center uk-height-1-1">
           <TopNav focus={this.state.currentPage}/>
-          <div className="content uk-vertical-align">
-            <div className="uk-vertical-align-middle">
+          <div className="container-vertical uk-vertical-align">
+            <div className="content-vertical uk-vertical-align-middle">
               {this.props.children}
             </div>
           </div>
