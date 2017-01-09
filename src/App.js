@@ -19,6 +19,9 @@ class App extends Component {
     this.setState({ currentPage: nextProps.location.pathname })
   }
   handleWheel(e) {
+    if (window && window.innerHeight > 499 && this.state.currentPage === '/' && e.deltaY>-1) {
+      browserHistory.push('/studio')
+    }
     // if (window && window.innerHeight > 699) {
     //   if (e.deltaY>-1) {
     //     switch (this.state.currentPage) {

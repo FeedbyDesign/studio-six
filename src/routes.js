@@ -6,12 +6,16 @@ import Intro from './Intro.js'
 import Studio from './Studio.js'
 import Artists from './Artists.js'
 import Team from './Team.js'
+import Error from './404.js'
 
 export default (
-  <Route path="/" component={App}>
-    <IndexRoute component={Intro} />
-    <Route path="/studio" component={Studio} />
-    <Route path="/artists" component={Artists} />
-    <Route path="/team" component={Team} />
-  </Route>
+  <div>
+    <Route path="/" component={App}>
+      <IndexRoute component={Intro} />
+      <Route path="/studio" component={() => (<Studio myProp="value" />)} />
+      <Route path="/artists" component={Artists} />
+      <Route path="/team" component={Team} />
+    </Route>
+    <Route path="*" component={Error} />
+  </div>
 )

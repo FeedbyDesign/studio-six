@@ -5,6 +5,7 @@
 .App {
   background-color: black;
   min-height: 100%;
+  padding-bottom: 50px;
   /*height: 100vh;*/
   /*padding-top: 150px;*/
 }
@@ -24,6 +25,6 @@ a:hover {
 }
 .content-vertical {
   width: 100%;
-  margin: 150px 0;
+  /*margin: 150px 0;*/
   /*height: 300px;*/
 }

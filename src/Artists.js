@@ -7,7 +7,7 @@ import artistsJson from './JSON/artists.js'
 import Artist from './Artist.js'
 
 // const masonryOptions = {
-//     // transitionDuration: 1
+//    // transitionDuration: 1
 // }
 // <Masonry
 //   className={'uk-grid uk-grid-width-1-1 uk-grid-width-small-1-2 uk-grid-width-medium-1-4 uk-grid-width-large-1-5'}

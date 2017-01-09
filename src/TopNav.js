@@ -6,25 +6,27 @@ import './css/TopNav.css';
 const TopNav = (props) => {
 
   return (
-    <div className="TopNav uk-position-top">
+    <div className="TopNav">
       <Link to="/" className="TopNav-logo-wrapper">
         <img alt="Studio Six" src={logo} className={(props.focus==='/') ? "hidden":"TopNav-logo"}></img>
       </Link>
-      <Link to="/studio" className="TopNav__">
-        <div className={(props.focus==='/studio') ? "menuItem focus":"menuItem"}>
-          THE STUDIO
-        </div>
-      </Link>
-      <Link to="/artists">
-        <div className={(props.focus==='/artists') ? "menuItem focus":"menuItem"}>
-          THE ARTISTS
-        </div>
-      </Link>
-      <Link to="/team">
-        <div className={(props.focus==='/team') ? "menuItem focus":"menuItem"}>
-          THE TEAM
-        </div>
-      </Link>
+      <div className="flex-text">
+        <Link to="/studio" className="">
+          <div className={(props.focus==='/studio') ? "menuItem focus":"menuItem"}>
+            THE STUDIO
+          </div>
+        </Link>
+        <Link to="/artists" className="">
+          <div className={(props.focus==='/artists') ? "menuItem focus":"menuItem"}>
+            THE ARTISTS
+          </div>
+        </Link>
+        <Link to="/team" className="">
+          <div className={(props.focus==='/team') ? "menuItem focus":"menuItem"}>
+            THE TEAM
+          </div>
+        </Link>
+      </div>
     </div>
   )
 }

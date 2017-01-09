@@ -1,6 +1,16 @@
 .TopNav {
-  height: 20%;
-  float: left;
+  /*height: 20%;*/
+  /*float: left;*/
+  margin-bottom: 20px;
+}
+.flex-text {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 450px) {
+  .flex-text {
+    flex-direction: column;
+  }
 }
 .TopNav-logo-wrapper {
   display: block;
@@ -13,8 +23,8 @@
   font-size: 1em;
   height: 50px;
 }
-.menuItem-wrapper {
-  /*max-width: 360;*/
+.menuItem-wrapper--wide {
+  width: 100%;
 }
 .menuItem {
   display: inline-block;
