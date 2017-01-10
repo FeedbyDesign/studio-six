@@ -14,13 +14,14 @@ class Artist extends Component {
   handleShow() {
     this.setState({hovered: false})
   }
-  handleClick() {
-    if (this.state.hovered) {
-      this.setState({hovered: false})
-    } else {
-      this.setState({hovered: true})
-    }
-  }
+  // handleClick() {
+  //   if (this.state.hovered) {
+  //     this.setState({hovered: false})
+  //   } else {
+  //     this.setState({hovered: true})
+  //   }
+  // }
+
   // "name": "Saule",
   // "album": "Vous êtes ici",
   // "cover": "CD saule.jpg",
@@ -37,12 +38,12 @@ class Artist extends Component {
             src={process.env.PUBLIC_URL + '/covers/' + this.props.artistData.cover}
             alt={this.props.artistData.name}
             onMouseEnter={this.handleHide.bind(this)}
-            onTouchStart={this.handleClick.bind(this)}
+            onTouchStart={this.handleHide.bind(this)}
             ></img>
           <div
             className={this.state.hovered ? "Artist-panelContent uk-overlay-panel" : "hidden Artist-panelContent uk-overlay-panel"}
             onMouseLeave={this.handleShow.bind(this)}
-            onTouchStart={this.handleClick.bind(this)}
+            onTouchEnd={this.handleShow.bind(this)}
             >
             <h4 className="Artist-name">{this.props.artistData.name}</h4>
             <div className="Artist-album">

@@ -91,7 +91,7 @@ const Studio = () => {
     }
 
   return (
-    <div>
+    <div className="">
       <div className="sliderContainer">
         <Slider {...sliderSettings}>
           {childrenPics}

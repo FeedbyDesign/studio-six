@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 import './css/Team.css'
 
 // import TeamMember from './TeamMember.js'
@@ -60,8 +61,16 @@ const Team = () => {
   }) // TeamMember
 
   return (
-    <div className="Team uk-grid uk-grid-width-1-1 uk-grid-width-medium-1-2 uk-grid-width-xlarge-1-3">
-      {TeamMembers}
+    <div className="">
+      <div className="Team">
+        {TeamMembers}
+      </div>
+      <div className="Team-contact">
+        <div className="Team-contact-item">Studio Six is located in Anderlecht - Brussels</div>
+        <div className="Team-contact-item">Email the manager at info@studiosix.eu</div>
+        <div className="Team-contact-item">And don't forget to follow us on facebook</div>
+      </div>
+      <p className="feed">Website built with <i className="uk-icon-heart-o"></i> by <Link href="http://feedbydesign.com" className="">Feed by Design</Link></p>
     </div>
   )
 }
