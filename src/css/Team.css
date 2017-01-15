@@ -1,10 +1,18 @@
+
+
+/*Team-flexWrapper {
+  display: flex;
+  flex-direction: column;
+}
+Team-flexPush {
+  flex: 1;
+}
 .Team {
-  /*margin-top: 4vh;*/
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-@media (min-width: 1220px) {
+@media (min-height: 800px) {
   .Team {
     margin-top: 4vh;
   }
@@ -14,8 +22,6 @@
 }
 .TeamMember-box {
   background-color: #E5007D;
-  /*margin: 20px;*/
-  /*margin: auto;*/
   width: 314px;
   height: 182px;
   position: relative;
@@ -52,14 +58,11 @@
   bottom: 0;
   width: 100%;
   text-align: center;
-
-  /*left: 50%;*/
 }
 .TeamMember-contact {
   display: inline;
   font-size: 0.8em;
   color: white;
-  /*position: relative; left: -50%;*/
 }
 .TeamMember-contact--bar {
   color: black;
@@ -75,30 +78,9 @@
   margin-bottom: 20px;
 }
 .Team-contact-item {
-  background-color: white;
-  color: black;
+  color: white;
   text-transform: uppercase;
-  /*font-weight: bold;*/
-  /*display: inline-block;*/
   margin: 3px;
   padding: 0 3px;
   font-size: 1em;
-  /*margin-right: 5px;*/
-  /*float: left;*/
-  /*clear: both;*/
-}
-.feed {
-  /*position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  margin: 0 0 52px 0;*/
-  font-size: 0.9em
-}
-.feed > a {
-  color: #444;
-}
-.feed > a:hover {
-  color: rgb(43, 201, 175);
-  text-decoration: none;
-}
+}*/

@@ -47,16 +47,12 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App" onWheel={this.handleWheel.bind(this)}>
-        <div className="uk-container uk-container-center App-center uk-height-1-1">
-          <TopNav focus={this.state.currentPage}/>
-          <div className="container-vertical uk-vertical-align">
-            <div className="paddingForGIT content-vertical uk-vertical-align-middle">
-              {this.props.children}
-            </div>
-          </div>
-          <GetInTouch />
+      <div id="App" onWheel={this.handleWheel.bind(this)}>
+        <TopNav id="App-TopNav" focus={this.state.currentPage}/>
+        <div id="App-content">
+          {this.props.children}
         </div>
+        <GetInTouch />
       </div>
     );
   }
@@ -71,3 +67,17 @@ export default App;
 // <p className="App-intro">
 //   To get started, edit <code>src/App.js</code> and save to reload.
 // </p>
+
+// Before flexbox tranform
+
+// <div className="App" onWheel={this.handleWheel.bind(this)}>
+//   <div className="uk-container uk-container-center App-center uk-height-1-1">
+//     <TopNav focus={this.state.currentPage}/>
+//     <div className="container-vertical uk-vertical-align">
+//       <div className="paddingForGIT content-vertical uk-vertical-align-middle">
+//         {this.props.children}
+//       </div>
+//     </div>
+//     <GetInTouch />
+//   </div>
+// </div>

@@ -1,6 +1,26 @@
-.TopNav {
-  /*height: 20%;*/
-  /*float: left;*/
+#App > nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#TopNav-logo--display {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+}
+.TopNav-logo {
+  height: 50px;
+}
+nav > a {
+}
+@media (max-width: 450px) {
+  nav > a {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
+
+/*.TopNav {
   margin-bottom: 20px;
 }
 .flex-text {
@@ -34,6 +54,5 @@
 }
 .focus {
   display: inline-block;
-  font-size: 1.3em;
   color: #E5007D;
-}
+}*/

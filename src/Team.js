@@ -32,6 +32,12 @@ const members = [
   }
 ]
 
+let email = null
+if (window) {
+  email = "inf"+"o@stu"+"diosix.eu"
+  email = <div className="Team-contact-item">Email the manager at <Link href={"mai"+"lto:"+email}>{email}</Link>.</div>
+}
+
 const Team = () => {
 
   const TeamMembers = members.map((member, i) => {
@@ -61,16 +67,18 @@ const Team = () => {
   }) // TeamMember
 
   return (
-    <div className="">
-      <div className="Team">
-        {TeamMembers}
+    <div className="Team-flexWrapper">
+      <div className="Team-flexPush">
+        <div className="Team">
+          {TeamMembers}
+        </div>
+        <div className="Team-contact">
+          <div className="Team-contact-item">Studio Six is located in Anderlecht - Brussels.</div>
+          {email}
+          <div className="Team-contact-item">And don't forget to <Link href="https://www.facebook.com/Studio-Six-223846264367486/" target="_blank" className="">follow us on facebook</Link>.</div>
+        </div>
       </div>
-      <div className="Team-contact">
-        <div className="Team-contact-item">Studio Six is located in Anderlecht - Brussels</div>
-        <div className="Team-contact-item">Email the manager at info@studiosix.eu</div>
-        <div className="Team-contact-item">And don't forget to follow us on facebook</div>
-      </div>
-      <p className="feed">Website built with <i className="uk-icon-heart-o"></i> by <Link href="http://feedbydesign.com" className="">Feed by Design</Link></p>
+      <p className="feed">Website built with <i className="uk-icon-heart-o"></i> by <Link href="http://feedbydesign.com" target="_blank" className="">Feed by Design</Link></p>
     </div>
   )
 }

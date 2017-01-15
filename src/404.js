@@ -1,10 +1,6 @@
 // TODO:
 import React from 'react'
 
-const Error = () => {
-  return (
-    <div>The page does not exist</div>
-  )
-}
+const Error = () => <div>Plop</div>
 
 export default Error

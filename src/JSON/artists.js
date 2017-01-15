@@ -214,7 +214,7 @@ const artists = [
   {
     "name": "DUALBLEND",
     "album": "",
-    "cover": "",
+    "cover": "CD dualblend.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -464,7 +464,7 @@ const artists = [
   {
     "name": "Leaps",
     "album": "",
-    "cover": "CD leaps",
+    "cover": "CD leaps.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -554,7 +554,7 @@ const artists = [
   {
     "name": "Mokoomba",
     "album": "",
-    "cover": "CD mom.jpg",
+    "cover": "CD mok.jpg",
     "website": "",
     "facebook": "https://www.facebook.com/pg/alpha2point1/about/?ref=page_internal",
     "youtube": "",
@@ -624,7 +624,7 @@ const artists = [
   {
     "name": "Mofo Party Plan",
     "album": "",
-    "cover": "CD moo.jpg",
+    "cover": "CD mbo.jpg",
     "website": "https://mofopartyplan.bandcamp.com",
     "facebook": "",
     "youtube": "https://www.youtube.com/watch?v=79-eKEFSAz0",

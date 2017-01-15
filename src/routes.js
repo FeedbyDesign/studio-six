@@ -15,7 +15,8 @@ export default (
       <Route path="/studio" component={() => (<Studio myProp="value" />)} />
       <Route path="/artists" component={Artists} />
       <Route path="/team" component={Team} />
+      <Route path="*" component={Error} />
     </Route>
-    <Route path="*" component={Error} />
+
   </div>
 )

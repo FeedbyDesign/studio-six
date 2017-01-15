@@ -5,11 +5,9 @@ import Logo from './img/logo_neg_600.png'
 
 const Intro = () => {
   return (
-    <div>
-      <Link to="/studio">
-        <img src={Logo} className="intro-logo"></img>
-      </Link>
-    </div>
+    <Link to="/studio">
+      <img src={Logo} className="intro-logo"></img>
+    </Link>
   )
 }
 

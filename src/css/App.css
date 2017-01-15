@@ -1,13 +1,24 @@
 .hidden {
   display: none;
 }
+#App {
+  min-height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+#App-content {
+  margin: auto;
+  flex-grow: 1;
+}
+
+/*.hidden {
+  display: none;
+}
 
 .App {
   background-color: black;
   min-height: 100%;
-  /*padding-bottom: 50px;*/
-  /*height: 100vh;*/
-  /*padding-top: 150px;*/
 }
 .App-center {
   text-align: center;
@@ -16,8 +27,10 @@
 a {
   text-decoration: none;
   color: white;
+  outline: none;
 }
 a:hover {
+  text-decoration: none;
   color: #E5007D;
 }
 .container-vertical {
@@ -25,9 +38,17 @@ a:hover {
 }
 .content-vertical {
   width: 100%;
-  /*margin: 150px 0;*/
-  /*height: 300px;*/
 }
 .paddingForGIT {
   padding-bottom: 50px;
 }
+.feed {
+  font-size: 0.9em;
+}
+.feed > a {
+  color: #444;
+}
+.feed > a:hover {
+  color: rgb(43, 201, 175);
+  text-decoration: none;
+}*/

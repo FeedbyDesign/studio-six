@@ -1,27 +1,19 @@
-.Studio {
+
+
+/*.Studio {
   padding-bottom: 50px;
 }
 .sliderContainer {
-  /*height: 300px;*/
   min-height: 200px;
   margin-bottom: 50px;
 }
-.slider {
-  /*height: 250px;*/
-}
 .image {
   padding: 15px;
-  /*height: 250px;*/
 }
-/* TODO: Needs clarification to set height and control images */
+/* TODO: Needs clarification to set height and control images
 .Studio__text--equipment {
   color: black;
   background-color: white;
   display: inline-block;
   padding: 0 4px 0 2px;
-  /*font-size: 2em;
-  line-height: 1.8em;*/
-}
-.iconsContainer {
-  /*width: 100%;*/
-}
+}*/

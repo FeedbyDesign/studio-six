@@ -1,23 +1,11 @@
-.Artist {
+
+
+/*.Artist {
   margin-bottom: 20px;
-}
-.coverPhoto--hovered {
-  /*background-color: #E5007D;*/
-}
-.panel {
-  /*height: 250px;*/
-  /*text-align: center;
-  margin-bottom: 30px;*/
 }
 .Artist-panelContent {
   background-color: #E5007D;
   margin: -1px;
-  /*text-align: center;*/
-  /*height: 100%;*/
-  /*width: 200px;*/
-  /*margin: auto;*/
-  /*padding: 0 0 10px 10px;*/
-  /*position: relative;*/
 }
 .Artist-name {
   font-size: 1.3em;
@@ -31,8 +19,18 @@
   font-size: 1em;
   color: white;
   text-transform: uppercase;
-  /*font-weight: bold;*/
   text-align: left;
+}
+.Artist-icons {
+  text-align: left;
+  margin-top: 5px;
+}
+.Artist-icon {
+  margin-right: 10px;
+  color: white;
+}
+.Artist-icon:hover {
+  color: black;
 }
 .Artist-taskBy--box {
   position: absolute;
@@ -50,4 +48,4 @@
   text-transform: uppercase;
   color: #E5007D;
   font-size: 0.9em;
-}
+}*/
