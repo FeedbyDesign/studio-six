@@ -1,19 +1,30 @@
-
-
-/*.Studio {
-  padding-bottom: 50px;
+#Studio {
+  padding-bottom: 60px;
 }
-.sliderContainer {
+#Studio-sliderContainer {
   min-height: 200px;
   margin-bottom: 50px;
 }
 .image {
-  padding: 15px;
+  padding: 0 15px;
 }
-/* TODO: Needs clarification to set height and control images
-.Studio__text--equipment {
+/* TODO: Needs clarification to set height and control images */
+#Studio__text--equipment {
   color: black;
   background-color: white;
   display: inline-block;
   padding: 0 4px 0 2px;
-}*/
+}
+#Studio-EquipmentList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Studio-EquipmentList--2 {
+  flex-grow: 1;
+  text-align: right;
+}
+@media (max-width: 500px) {
+  .Studio-EquipmentList--2 {
+    flex-basis: 100%;
+  }
+}

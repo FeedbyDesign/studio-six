@@ -49,10 +49,8 @@ class App extends Component {
     return (
       <div id="App" onWheel={this.handleWheel.bind(this)}>
         <TopNav id="App-TopNav" focus={this.state.currentPage}/>
-        <div id="App-content">
-          {this.props.children}
-        </div>
-        <GetInTouch />
+        {this.props.children}
+        {(this.state.currentPage=='/team') ? null : <GetInTouch />}
       </div>
     );
   }
@@ -68,8 +66,8 @@ export default App;
 //   To get started, edit <code>src/App.js</code> and save to reload.
 // </p>
 
-// Before flexbox tranform
 
+/////// Before flexbox tranform
 // <div className="App" onWheel={this.handleWheel.bind(this)}>
 //   <div className="uk-container uk-container-center App-center uk-height-1-1">
 //     <TopNav focus={this.state.currentPage}/>

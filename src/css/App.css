@@ -3,13 +3,11 @@
 }
 #App {
   min-height: 100%;
-  background-color: black;
   display: flex;
   flex-direction: column;
-}
-#App-content {
+  padding: 0 5%;
+  max-width: 1200px;
   margin: auto;
-  flex-grow: 1;
 }
 
 /*.hidden {

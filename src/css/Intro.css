@@ -1,4 +1,11 @@
-
+#Intro {
+  margin: auto;
+  height: 50vh;
+  padding-bottom: 15vh;
+}
+#intro-logo {
+  max-height: 100%;
+}
 
 /*.intro-logo {
   margin-top: 8vh;

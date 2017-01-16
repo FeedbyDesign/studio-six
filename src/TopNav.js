@@ -12,21 +12,9 @@ const TopNav = (props) => {
           <img alt="Studio Six" src={logo} className={(props.focus==='/') ? "hidden":"TopNav-logo"}></img>
         </Link>
       </div>
-      <Link to="/studio">
-        <div className={(props.focus==='/studio') ? "menuItem focus":"menuItem"}>
-          THE STUDIO
-        </div>
-      </Link>
-      <Link to="/artists">
-        <div className={(props.focus==='/artists') ? "menuItem focus":"menuItem"}>
-          THE ARTISTS
-        </div>
-      </Link>
-      <Link to="/team">
-        <div className={(props.focus==='/team') ? "menuItem focus":"menuItem"}>
-          THE TEAM
-        </div>
-      </Link>
+      <Link to="/studio" className={(props.focus==='/studio') ? " focus":""}>THE STUDIO</Link>
+      <Link to="/artists" className={(props.focus==='/artists') ? " focus":""}>THE ARTISTS</Link>
+      <Link to="/team" className={(props.focus==='/team') ? " focus":""}>THE TEAM</Link>
     </nav>
   )
 }

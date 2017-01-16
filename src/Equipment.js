@@ -17,13 +17,6 @@ class Equipment extends Component {
     }
   }
 
-  // handleHide() {
-  //   this.setState({hovered: true})
-  // }
-  // handleShow() {
-  //   this.setState({hovered: false})
-  // }
-
   render() {
     const list = this.props.equipmentList.map((elem, i) => {
       return (

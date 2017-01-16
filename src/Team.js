@@ -35,7 +35,7 @@ const members = [
 let email = null
 if (window) {
   email = "inf"+"o@stu"+"diosix.eu"
-  email = <div className="Team-contact-item">Email the manager at <Link href={"mai"+"lto:"+email}>{email}</Link>.</div>
+  email = <p className="Team-contact-item">Email the manager at <Link href={"mai"+"lto:"+email}>{email}</Link>.</p>
 }
 
 const Team = () => {
@@ -68,15 +68,21 @@ const Team = () => {
 
   return (
     <div className="Team-flexWrapper">
-      <div className="Team-flexPush">
-        <div className="Team">
-          {TeamMembers}
-        </div>
-        <div className="Team-contact">
-          <div className="Team-contact-item">Studio Six is located in Anderlecht - Brussels.</div>
-          {email}
-          <div className="Team-contact-item">And don't forget to <Link href="https://www.facebook.com/Studio-Six-223846264367486/" target="_blank" className="">follow us on facebook</Link>.</div>
-        </div>
+      <div className="Team">
+        {TeamMembers}
+      </div>
+      <div className="Team-contact">
+        <p className="Team-contact-item">
+          Studio Six is located in&nbsp;
+          <Link
+            href="https://www.google.be/maps/place/1070+Anderlecht/@50.8374016,4.3034447,13.75z/data=!4m5!3m4!1s0x47c3a4d1b60305a9:0xeba77790dbb9a06f!8m2!3d50.8365808!4d4.308187"
+            target="_blank"
+            >Anderlecht - Brussels</Link>.
+        </p>
+        {email}
+        <p className="Team-contact-item">
+          And don't forget to <Link href="https://www.facebook.com/Studio-Six-223846264367486/" target="_blank" className="">follow us on facebook</Link>.
+        </p>
       </div>
       <p className="feed">Website built with <i className="uk-icon-heart-o"></i> by <Link href="http://feedbydesign.com" target="_blank" className="">Feed by Design</Link></p>
     </div>

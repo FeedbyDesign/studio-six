@@ -1,7 +1,8 @@
-#App > nav {
+nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 20px 0 50px 0;
 }
 #TopNav-logo--display {
   flex: 0 0 100%;
@@ -12,12 +13,21 @@
   height: 50px;
 }
 nav > a {
+  width: 130px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
 }
 @media (max-width: 450px) {
   nav > a {
     flex-basis: 100%;
     text-align: center;
   }
+}
+.focus, nav >a:hover {
+  color: #E5007D;
+  text-decoration: none;
 }
 
 /*.TopNav {

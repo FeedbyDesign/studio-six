@@ -1,11 +1,8 @@
-
-
-/*Team-flexWrapper {
+.Team-flexWrapper {
   display: flex;
   flex-direction: column;
-}
-Team-flexPush {
-  flex: 1;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 .Team {
   display: flex;
@@ -18,7 +15,7 @@ Team-flexPush {
   }
 }
 .TeamMember {
-  padding: 20px;
+  padding: 0 20px 20px 20px;
 }
 .TeamMember-box {
   background-color: #E5007D;
@@ -76,6 +73,7 @@ Team-flexPush {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 20px;
+  text-align: center;
 }
 .Team-contact-item {
   color: white;
@@ -83,4 +81,18 @@ Team-flexPush {
   margin: 3px;
   padding: 0 3px;
   font-size: 1em;
-}*/
+}
+.Team-contact a {
+  color: #E5007D;
+}
+.feed {
+  text-align: center;
+  font-size: 0.9em;
+}
+.feed > a {
+  color: #444;
+}
+.feed > a:hover {
+  color: rgb(43, 201, 175);
+  text-decoration: none;
+}
