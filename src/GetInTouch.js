@@ -3,21 +3,25 @@ import { Link } from 'react-router'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import './css/GetInTouch.css'
 
-const GetInTouch = () => {
+const GetInTouch = (props) => {
+  const gitClassName = (props.currentPage==='/team') ? "GetInTouch-hidden" : "GetInTouch"
   return (
-    <ReactCSSTransitionGroup
-      transitionName="example"
-      transitionEnterTimeout={500}
-      transitionLeaveTimeout={300}
-      >
-
       <Link to="/team" className="link">
-        <div className="GetInTouch">
-          GET IN TOUCH
-        </div>
+        <div className={gitClassName}>GET IN TOUCH</div>
       </Link>
-    </ReactCSSTransitionGroup>
   )
 }
+// TODO:
+// <ReactCSSTransitionGroup
+//   transitionName="anim_GetInTouch"
+//   transitionAppear={true}
+//   transitionAppearTimeout={1000}
+//   transitionEnter={false}
+//   transitionLeave={false}
+//   >
+//   <Link to="/team" className="link">
+//     <div className={gitClassName}>GET IN TOUCH</div>
+//   </Link>
+// </ReactCSSTransitionGroup>
 
 export default GetInTouch

@@ -43,15 +43,13 @@ class Artist extends Component {
       youtubeLink = <span className="Artist-icon"><Link href={this.props.artistData.youtube} target="_blank" className="uk-icon-small uk-icon-youtube-square"></Link></span>
     }
     return (
-      <div className="Artist" onMouseLeave={this.handleShow.bind(this)}>
-        <div className="uk-overlay">
+      <div className="Artist" >
+        <div className="overlay">
           <img
             src={process.env.PUBLIC_URL + '/covers/' + this.props.artistData.cover}
             alt={this.props.artistData.name}
-            onMouseEnter={this.handleHide.bind(this)}
-            onTouchStart={this.toggleHide.bind(this)}
             ></img>
-          <div className={this.state.hovered ? "Artist-panelContent uk-overlay-panel" : "hidden Artist-panelContent uk-overlay-panel"}>
+          <div className={this.state.hovered ? "Artist-panelContent" : "Artist-panelContent "}>
             <h4 className="Artist-name">{this.props.artistData.name}</h4>
             <div className="Artist-album">
               <div>{this.props.artistData.album}</div>
@@ -72,3 +70,28 @@ class Artist extends Component {
 }
 
 export default Artist
+
+// <div className="Artist" onMouseLeave={this.handleShow.bind(this)}>
+//   <div className="uk-overlay">
+//     <img
+//       src={process.env.PUBLIC_URL + '/covers/' + this.props.artistData.cover}
+//       alt={this.props.artistData.name}
+//       onMouseEnter={this.handleHide.bind(this)}
+//       onTouchStart={this.toggleHide.bind(this)}
+//       ></img>
+//     <div className={this.state.hovered ? "Artist-panelContent uk-overlay-panel" : "hidden Artist-panelContent uk-overlay-panel"}>
+//       <h4 className="Artist-name">{this.props.artistData.name}</h4>
+//       <div className="Artist-album">
+//         <div>{this.props.artistData.album}</div>
+//       </div>
+//       <div className="Artist-icons">
+//         {websiteLink}
+//         {facebookLink}
+//         {youtubeLink}
+//       </div>
+//       <div className="Artist-taskBy--box">
+//         <div className="Artist-taskBy">{this.props.artistData.taskBy}</div>
+//       </div>
+//     </div>
+//   </div>
+// </div>

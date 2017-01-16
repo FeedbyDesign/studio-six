@@ -85,6 +85,10 @@
 .Team-contact a {
   color: #E5007D;
 }
+.Team-contact a:hover {
+  color: white;
+  text-decoration: none;
+}
 .feed {
   text-align: center;
   font-size: 0.9em;

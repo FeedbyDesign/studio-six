@@ -4,11 +4,27 @@
     left: 0;
     right: 0;
   background-color: #E5007D;
-  height: 50px;
   font-size: 24px;
   line-height: 50px;
   cursor: pointer;
   text-align: center;
+
+  height: 50px;
+  transition: height 1s;
+}
+.GetInTouch-hidden {
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  background-color: #E5007D;
+  font-size: 24px;
+  line-height: 50px;
+  cursor: pointer;
+  text-align: center;
+
+  height: 0px;
+  transition: height 1s;
 }
 .link {
   color: white;
@@ -18,3 +34,37 @@
   text-decoration: none;
   color: black;
 }
+
+
+/*.anim_GetInTouch-appear {
+  height: 0px;
+}
+
+.anim_GetInTouch-appear.anim_GetInTouch-appear-active {
+  height: 50px;
+  transition: height 1s ease-in;
+}*/
+
+
+
+/*.example-enter {
+  height: 0px;
+}
+
+.example-enter.example-enter-active {
+  height: 50px;
+  transition: height 1000ms ease-in;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 1000ms ease-in;
+}
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}*/

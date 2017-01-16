@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { browserHistory, Link } from 'react-router'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import './css/App.css';
 
 import TopNav from './TopNav.js'
@@ -23,6 +24,7 @@ class App extends Component {
     }
   }
   handleWheel(e) {
+    console.log(this.state.currentPage);
     if (window && window.innerHeight > 499 && this.state.currentPage === '/' && e.deltaY>-1) {
       browserHistory.push('/studio')
     }
@@ -48,9 +50,10 @@ class App extends Component {
   render() {
     return (
       <div id="App" onWheel={this.handleWheel.bind(this)}>
-        <TopNav id="App-TopNav" focus={this.state.currentPage}/>
+        <TopNav id="App-TopNav" currentPage={this.state.currentPage}/>
         {this.props.children}
-        {(this.state.currentPage=='/team') ? null : <GetInTouch />}
+          {/*(this.state.currentPage=='/team') ? null : <GetInTouch />*/}
+          <GetInTouch currentPage={this.state.currentPage}/>
       </div>
     );
   }

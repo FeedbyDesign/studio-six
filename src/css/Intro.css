@@ -7,6 +7,15 @@
   max-height: 100%;
 }
 
+.anim_intro-logo-appear {
+  opacity: 0.01;
+}
+
+.anim_intro-logo-appear.anim_intro-logo-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
 /*.intro-logo {
   margin-top: 8vh;
   max-height: 40vh;
