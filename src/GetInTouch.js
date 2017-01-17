@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
+
 import './css/GetInTouch.css'
 
 const GetInTouch = (props) => {

@@ -1,4 +1,3 @@
-// TODO:
 import React from 'react'
 
 const errorStyle = {

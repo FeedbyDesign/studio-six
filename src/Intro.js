@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
+
 import './css/Intro.css'
 import Logo from './img/logo_neg_600.png'
 

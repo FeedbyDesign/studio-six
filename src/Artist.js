@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router'
+
 import './css/Artist.css'
 
 class Artist extends Component {

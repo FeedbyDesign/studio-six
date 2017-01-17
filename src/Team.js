@@ -2,8 +2,6 @@ import React from 'react'
 import { Link } from 'react-router'
 import './css/Team.css'
 
-// import TeamMember from './TeamMember.js'
-
 const members = [
   {
     name: "Alexandre Leroy",
