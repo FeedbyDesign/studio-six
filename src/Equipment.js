@@ -26,7 +26,7 @@ class Equipment extends Component {
     return (
       <div>
         <h2 className="Equipment__text--catname" onClick={this.handleClick.bind(this)}>{this.props.category}</h2>
-        <div className={this.state.open ? "Equipment__drawer" : "Equipment__drawer hidden"}>
+        <div className={this.state.open ? "Equipment__drawer" : "Equipment__drawer--hidden"}>
           {list}
         </div>
       </div>

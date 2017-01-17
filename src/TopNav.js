@@ -9,7 +9,7 @@ const TopNav = (props) => {
     <nav>
       <div id="TopNav-logo--display">
         <Link to="/">
-          <img alt="Studio Six" src={logo} className={(props.currentPage==='/') ? "hidden":"TopNav-logo"}></img>
+          <img alt="Studio Six" src={logo} className={(props.currentPage==='/') ? "TopNav-logo--hidden":"TopNav-logo"}></img>
         </Link>
       </div>
       <Link to="/studio" className={(props.currentPage==='/studio') ? " focus":""}>THE STUDIO</Link>

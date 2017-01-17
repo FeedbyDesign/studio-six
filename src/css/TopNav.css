@@ -11,6 +11,11 @@ nav {
 }
 .TopNav-logo {
   height: 50px;
+  transition: height 0.5s;
+}
+.TopNav-logo--hidden {
+  height: 0;
+  transition: height 0.5s;
 }
 nav > a {
   width: 130px;

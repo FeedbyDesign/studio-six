@@ -44,23 +44,26 @@ class Artist extends Component {
     }
     return (
       <div className="Artist" >
-        <div className="overlay">
+        <div className="Artist-box">
           <img
             src={process.env.PUBLIC_URL + '/covers/' + this.props.artistData.cover}
             alt={this.props.artistData.name}
             ></img>
           <div className={this.state.hovered ? "Artist-panelContent" : "Artist-panelContent "}>
-            <h4 className="Artist-name">{this.props.artistData.name}</h4>
-            <div className="Artist-album">
-              <div>{this.props.artistData.album}</div>
-            </div>
-            <div className="Artist-icons">
-              {websiteLink}
-              {facebookLink}
-              {youtubeLink}
-            </div>
-            <div className="Artist-taskBy--box">
-              <div className="Artist-taskBy">{this.props.artistData.taskBy}</div>
+            <div className="Artist-content">
+
+              <h4 className="Artist-name">{this.props.artistData.name}</h4>
+              <div className="Artist-album">
+                <div>{this.props.artistData.album}</div>
+              </div>
+              <div className="Artist-icons">
+                {websiteLink}
+                {facebookLink}
+                {youtubeLink}
+              </div>
+              <div className="Artist-taskBy--box">
+                <div className="Artist-taskBy">{this.props.artistData.taskBy}</div>
+              </div>
             </div>
           </div>
         </div>
