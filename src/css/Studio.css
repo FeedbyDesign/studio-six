@@ -17,13 +17,15 @@
 }
 #Studio-EquipmentList {
   display: flex;
-  flex-wrap: wrap;
 }
 .Studio-EquipmentList--2 {
   flex-grow: 1;
   text-align: right;
 }
 @media (max-width: 500px) {
+  #Studio-EquipmentList {
+    flex-wrap: wrap;
+  }
   .Studio-EquipmentList--2 {
     flex-basis: 100%;
   }

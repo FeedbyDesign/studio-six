@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { browserHistory, Link } from 'react-router'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import { browserHistory } from 'react-router'
 import './css/App.css';
 
 import TopNav from './TopNav.js'
@@ -24,7 +23,6 @@ class App extends Component {
     }
   }
   handleWheel(e) {
-    console.log(this.state.currentPage);
     if (window && window.innerHeight > 499 && this.state.currentPage === '/' && e.deltaY>-1) {
       browserHistory.push('/studio')
     }
@@ -52,33 +50,10 @@ class App extends Component {
       <div id="App" onWheel={this.handleWheel.bind(this)}>
         <TopNav id="App-TopNav" currentPage={this.state.currentPage}/>
         {this.props.children}
-          {/*(this.state.currentPage=='/team') ? null : <GetInTouch />*/}
-          <GetInTouch currentPage={this.state.currentPage}/>
+        <GetInTouch currentPage={this.state.currentPage}/>
       </div>
     );
   }
 }
 
 export default App;
-
-// <div className="App-header">
-//   <img src={logo} className="App-logo" alt="logo" />
-//   <h2>Welcome to React</h2>
-// </div>
-// <p className="App-intro">
-//   To get started, edit <code>src/App.js</code> and save to reload.
-// </p>
-
-
-/////// Before flexbox tranform
-// <div className="App" onWheel={this.handleWheel.bind(this)}>
-//   <div className="uk-container uk-container-center App-center uk-height-1-1">
-//     <TopNav focus={this.state.currentPage}/>
-//     <div className="container-vertical uk-vertical-align">
-//       <div className="paddingForGIT content-vertical uk-vertical-align-middle">
-//         {this.props.children}
-//       </div>
-//     </div>
-//     <GetInTouch />
-//   </div>
-// </div>

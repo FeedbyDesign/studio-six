@@ -2,18 +2,18 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 .Team {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-@media (min-height: 800px) {
+/*@media (min-height: 800px) {
   .Team {
     margin-top: 4vh;
   }
-}
+}*/
 .TeamMember {
   padding: 0 20px 20px 20px;
 }
@@ -73,8 +73,9 @@
   display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin: 20px 0;
   text-align: center;
+  flex-grow: 1;
 }
 .Team-contact-item {
   color: white;

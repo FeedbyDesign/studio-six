@@ -1,8 +1,11 @@
 .Artist {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 .Artist-box {
   position: relative;
+  max-width: 350px;
 }
 .Artist-panelContent {
   position: absolute;

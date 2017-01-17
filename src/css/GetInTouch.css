@@ -54,37 +54,3 @@
   text-decoration: none;
   color: black;
 }
-
-
-/*.anim_GetInTouch-appear {
-  height: 0px;
-}
-
-.anim_GetInTouch-appear.anim_GetInTouch-appear-active {
-  height: 50px;
-  transition: height 1s ease-in;
-}*/
-
-
-
-/*.example-enter {
-  height: 0px;
-}
-
-.example-enter.example-enter-active {
-  height: 50px;
-  transition: height 1000ms ease-in;
-}
-
-.example-leave.example-leave-active {
-  opacity: 0.01;
-  transition: opacity 1000ms ease-in;
-}
-.example-appear {
-  opacity: 0.01;
-}
-
-.example-appear.example-appear-active {
-  opacity: 1;
-  transition: opacity 1s ease-in;
-}*/

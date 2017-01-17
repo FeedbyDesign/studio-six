@@ -3,7 +3,7 @@ const artists = [
   {
     "name": "", // Name of the artist / group
     "album": "", // Name of the album
-    "cover": "", // name of the picture file (with extension like.jpg !!) in the covers folder. e.g.: "CD albumname.jpg"
+    "cover": "", // name of the picture file (with extension like.jpg !!) in the covers folder. e.g.: "CD-albumname.jpg"
     "website": "", // the URL to the artist's website
     "facebook": "", // if it is a facebook page instead of a wesite
     "youtube": "", // link to a youtube chanel or video
@@ -14,7 +14,7 @@ const artists = [
   {
     "name": "Saule",
     "album": "Vous êtes ici",
-    "cover": "CD saule.jpg",
+    "cover": "CD-saule.jpg",
     "website": "http://www.saule.be",
     "facebook": "",
     "youtube": "",
@@ -24,7 +24,7 @@ const artists = [
   {
     "name": "Von durden",
     "album": "Von durden party project",
-    "cover": "CD von D.jpg",
+    "cover": "CD-von-D.jpg",
     "website": "http://www.vondurden.com/",
     "facebook": "",
     "youtube": "",
@@ -34,7 +34,7 @@ const artists = [
   {
     "name": "Melchior",
     "album": "it’s always a girl choice",
-    "cover": "CD melchior.jpg",
+    "cover": "CD-melchior.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -44,7 +44,7 @@ const artists = [
   {
     "name": "Nehal",
     "album": "some kind of medecine",
-    "cover": "CD nehal.jpg",
+    "cover": "CD-nehal.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -54,7 +54,7 @@ const artists = [
   {
     "name": "BRNS",
     "album": "patine",
-    "cover": "CD BRNS - Patine_0.jpg",
+    "cover": "CD-BRNS-Patine_0.jpg",
     "website": "https://www.brns.be",
     "facebook": "",
     "youtube": "",
@@ -64,7 +64,7 @@ const artists = [
   {
     "name": "BRNS",
     "album": "wounded",
-    "cover": "CD brns 1.jpg",
+    "cover": "CD-brns-1.jpg",
     "website": "https://www.brns.be",
     "facebook": "",
     "youtube": "",
@@ -74,7 +74,7 @@ const artists = [
   {
     "name": "Nicola Testa",
     "album": "The letter",
-    "cover": "CD testa.jpg",
+    "cover": "CD-testa.jpg",
     "website": "http://www.nicolatesta.net",
     "facebook": "",
     "youtube": "",
@@ -84,7 +84,7 @@ const artists = [
   {
     "name": "PUGGY",
     "album": "Colours/Live AB",
-    "cover": "CD puggy.jpg",
+    "cover": "CD-puggy.jpg",
     "website": "http://www.puggy.fr",
     "facebook": "",
     "youtube": "",
@@ -93,8 +93,8 @@ const artists = [
   },
   {
     "name": "PUGGY",
-    "album": "Everyone leans to forget / live studio",
-    "cover": "CD puggy 2.jpg",
+    "album": "Everyone learns to forget / live studio",
+    "cover": "CD-puggy-2.jpg",
     "website": "http://www.puggy.fr",
     "facebook": "",
     "youtube": "https://www.youtube.com/watch?v=yRpsDihvwXI",
@@ -104,7 +104,7 @@ const artists = [
   {
     "name": "Jane Doe and the black bourgeoises",
     "album": "live studio",
-    "cover": "CD jane doe.jpg",
+    "cover": "CD-jane-doe.jpg",
     "website": "",
     "facebook": "",
     "youtube": "https://www.youtube.com/watch?v=2jHxuVwe-cI",
@@ -114,7 +114,7 @@ const artists = [
   {
     "name": "Cargo Culte / live studio",
     "album": "",
-    "cover": "CD cargo.jpg",
+    "cover": "CD-cargo.jpg",
     "website": "",
     "facebook": "https://www.facebook.com/CargoCulteMusic/videos/452602568139992/",
     "youtube": "",
@@ -124,7 +124,7 @@ const artists = [
   {
     "name": "Evelinn Trouble",
     "album": "Television religion",
-    "cover": "CD evelinn.jpg",
+    "cover": "CD-evelinn.jpg",
     "website": "",
     "facebook": "",
     "youtube": "https://www.youtube.com/watch?v=kc8DVMN0XQk",
@@ -134,7 +134,7 @@ const artists = [
   {
     "name": "Nathaniel Rateliff & the night sweats",
     "album": "Beatles cover",
-    "cover": "CD nathaniel.jpg",
+    "cover": "CD-nathaniel.jpg",
     "website": "http://www.nathanielrateliff.com",
     "facebook": "",
     "youtube": "",
@@ -144,7 +144,7 @@ const artists = [
   {
     "name": "Sharon",
     "album": "Guardian Angel",
-    "cover": "CD sharon.jpg",
+    "cover": "CD-sharon.jpg",
     "website": "http://www.sharonmusic.be",
     "facebook": "",
     "youtube": "",
@@ -154,7 +154,7 @@ const artists = [
   {
     "name": "Memed",
     "album": "",
-    "cover": "CD memed.jpg",
+    "cover": "CD-memed.jpg",
     "website": "",
     "facebook": "https://www.facebook.com/memedband/?fref=ts",
     "youtube": "",
@@ -164,7 +164,7 @@ const artists = [
   {
     "name": "Yel",
     "album": "Electrophone",
-    "cover": "CD yel.jpg",
+    "cover": "CD-yel.jpg",
     "website": "http://www.yel.be",
     "facebook": "",
     "youtube": "",
@@ -174,7 +174,7 @@ const artists = [
   {
     "name": "Almaniax",
     "album": "",
-    "cover": "CD almaniax.jpg",
+    "cover": "CD-almaniax.jpg",
     "website": "http://www.almaniax.be",
     "facebook": "",
     "youtube": "",
@@ -184,7 +184,7 @@ const artists = [
   {
     "name": "Naughty Mouse",
     "album": "Staring at the sun",
-    "cover": "CD naught 1.jpg",
+    "cover": "CD-naught-1.jpg",
     "website": "https://naughtymouse.bandcamp.com",
     "facebook": "",
     "youtube": "",
@@ -194,7 +194,7 @@ const artists = [
   {
     "name": "Naughty Mouse",
     "album": "Killer #2",
-    "cover": "CD naughty 2.jpg",
+    "cover": "CD-naughty-2.jpg",
     "website": "https://naughtymouse.bandcamp.com",
     "facebook": "",
     "youtube": "",
@@ -204,7 +204,7 @@ const artists = [
   {
     "name": "HULK",
     "album": "Bad news from Lago",
-    "cover": "CD hulk.jpg",
+    "cover": "CD-hulk.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -214,7 +214,7 @@ const artists = [
   {
     "name": "DUALBLEND",
     "album": "",
-    "cover": "CD dualblend.jpg",
+    "cover": "CD-dualblend.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -224,7 +224,7 @@ const artists = [
   {
     "name": "OMSQ",
     "album": "Thrust parry",
-    "cover": "CD omsq.jpg",
+    "cover": "CD-omsq.jpg",
     "website": "https://omsq.bandcamp.com/album/thrust-parry-lp",
     "facebook": "",
     "youtube": "",
@@ -234,7 +234,7 @@ const artists = [
   {
     "name": "Komah",
     "album": "",
-    "cover": "CD komah.jpg",
+    "cover": "CD-komah.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -244,7 +244,7 @@ const artists = [
   {
     "name": "Vincent Scarito",
     "album": "BEINGS",
-    "cover": "CD vincentscarito.jpg",
+    "cover": "CD-vincentscarito.jpg",
     "website": "http://www.vincentscarito.com",
     "facebook": "",
     "youtube": "",
@@ -254,7 +254,7 @@ const artists = [
   {
     "name": "Reggie Washington",
     "album": "Freedom",
-    "cover": "CD reggie.jpg",
+    "cover": "CD-reggie.jpg",
     "website": "https://reggiewashington-official.com",
     "facebook": "",
     "youtube": "",
@@ -264,7 +264,7 @@ const artists = [
   {
     "name": "Galapagosht",
     "album": "",
-    "cover": "CD gala.jpg",
+    "cover": "CD-gala.jpg",
     "website": "http://gpghost.com",
     "facebook": "",
     "youtube": "",
@@ -274,7 +274,7 @@ const artists = [
   {
     "name": "GODDOG",
     "album": "",
-    "cover": "Goddog.jpg",
+    "cover": "CD-Goddog.jpg",
     "website": "",
     "facebook": "https://www.facebook.com/pg/GoddogBelgium/about/?ref=page_internal",
     "youtube": "",
@@ -284,7 +284,7 @@ const artists = [
   {
     "name": "Hollywood Bedsheet",
     "album": "",
-    "cover": "CD holly.jpg",
+    "cover": "CD-holly.jpg",
     "website": "",
     "facebook": "https://www.facebook.com/hollywood.bedsheets/?fref=ts",
     "youtube": "",
@@ -294,7 +294,7 @@ const artists = [
   {
     "name": "Zaccharia",
     "album": "",
-    "cover": "Cd zacc.jpg",
+    "cover": "CD-zacc.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -304,7 +304,7 @@ const artists = [
   {
     "name": "The Jacklean",
     "album": "",
-    "cover": "CD jack.jpg",
+    "cover": "CD-jackleans.jpg",
     "website": "",
     "facebook": "https://www.facebook.com/theJackleans/?fref=ts",
     "youtube": "",
@@ -314,7 +314,7 @@ const artists = [
   {
     "name": "Mandales",
     "album": "",
-    "cover": "CD mandales.jpg",
+    "cover": "CD-mandales.jpg",
     "website": "",
     "facebook": "https://www.facebook.com/mandalesweb/?fref=ts",
     "youtube": "",
@@ -324,7 +324,7 @@ const artists = [
   {
     "name": "Solkins",
     "album": "Gold",
-    "cover": "CD solkins.jpg",
+    "cover": "CD-solkins.jpg",
     "website": "https://solkinstheband.bandcamp.com",
     "facebook": "",
     "youtube": "",
@@ -334,7 +334,7 @@ const artists = [
   {
     "name": "Wane",
     "album": "",
-    "cover": "cd wane.jpg",
+    "cover": "CD-wane.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -344,7 +344,7 @@ const artists = [
   {
     "name": "Major Dubreucq",
     "album": "",
-    "cover": "CD major.jpg",
+    "cover": "CD-major.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -354,7 +354,7 @@ const artists = [
   {
     "name": "Sadden Fact",
     "album": "",
-    "cover": "CD sadden.jpg",
+    "cover": "CD-sadden.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -364,7 +364,7 @@ const artists = [
   {
     "name": "Super like you",
     "album": "",
-    "cover": "CD super.jpg",
+    "cover": "CD-super.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -374,7 +374,7 @@ const artists = [
   {
     "name": "Pleymo",
     "album": "Live ROCK TOUR",
-    "cover": "CD pleymo.jpg",
+    "cover": "CD-pleymo.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -384,7 +384,7 @@ const artists = [
   {
     "name": "Moaning Cities",
     "album": "Pathways through the Sail",
-    "cover": "CD moaning.jpg",
+    "cover": "CD-moaning.jpg",
     "website": "https://www.moaningcities.com/",
     "facebook": "",
     "youtube": "",
@@ -394,7 +394,7 @@ const artists = [
   {
     "name": "Kangling",
     "album": "Echos of distant Voices",
-    "cover": "CD kangling.jpg",
+    "cover": "CD-kangling.jpg",
     "website": "https://ragtimeproduction.bandcamp.com/album/kangling",
     "facebook": "",
     "youtube": "",
@@ -404,7 +404,7 @@ const artists = [
   {
     "name": "Mbongwana Star",
     "album": "preprod",
-    "cover": "CD mbo.jpg",
+    "cover": "CD-mbo.jpg",
     "website": "http://www.mbongwanastar.com/",
     "facebook": "",
     "youtube": "",
@@ -414,7 +414,7 @@ const artists = [
   {
     "name": "Frank Shinobi",
     "album": "Semantics",
-    "cover": "CD Sinobi.jpg",
+    "cover": "CD-Sinobi.jpg",
     "website": "http://www.honesthouse.be/bands/frank-shinobi/",
     "facebook": "",
     "youtube": "",
@@ -424,7 +424,7 @@ const artists = [
   {
     "name": "Baloji",
     "album": "Preprod/additionnal recording",
-    "cover": "CD balo.jpg",
+    "cover": "CD-balo.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -434,7 +434,7 @@ const artists = [
   {
     "name": "Applause",
     "album": "Acids",
-    "cover": "CD applause.jpg",
+    "cover": "CD-applause.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -444,7 +444,7 @@ const artists = [
   {
     "name": "Vegastar",
     "album": "Television",
-    "cover": "CD vegastar.jpg",
+    "cover": "CD-vegastar.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -454,7 +454,7 @@ const artists = [
   {
     "name": "ELEVEN!",
     "album": "Flicker rays to hell",
-    "cover": "CD eleven.jpg",
+    "cover": "CD-eleven.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -464,7 +464,7 @@ const artists = [
   {
     "name": "Leaps",
     "album": "",
-    "cover": "CD leaps.jpg",
+    "cover": "CD-leaps.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -474,7 +474,7 @@ const artists = [
   {
     "name": "Beautiful Badness",
     "album": "",
-    "cover": "CD bb 1.jpg",
+    "cover": "CD-bb-1.jpg",
     "website": "https://play.spotify.com/album/2sVQ0dNZMlsU0JHz8ki0lK?play=true&utm_source=open.spotify.com&utm_medium=open",
     "facebook": "",
     "youtube": "",
@@ -484,7 +484,7 @@ const artists = [
 {
     "name": "Beautiful Badness",
     "album": "Many years",
-    "cover": "CD bb 2.jpg",
+    "cover": "CD-bb-2.jpg",
     "website": "https://play.spotify.com/album/090uQdQcL0wAO9GIe7nC3n?play=true&utm_source=open.spotify.com&utm_medium=open",
     "facebook": "",
     "youtube": "",
@@ -494,7 +494,7 @@ const artists = [
   {
     "name": "Yellow Straps",
     "album": "Whirlwind Romance",
-    "cover": "CD yellow.jpg",
+    "cover": "CD-yellow.jpg",
     "website": "https://play.spotify.com/album/5NYiPiTqKb0WfWJKD3bx4u?play=true&utm_source=open.spotify.com&utm_medium=open",
     "facebook": "",
     "youtube": "",
@@ -504,7 +504,7 @@ const artists = [
   {
     "name": "Surfer Rosa",
     "album": "Killing the past",
-    "cover": "CD surfer.jpg",
+    "cover": "CD-surfer.jpg",
     "website": "https://play.spotify.com/album/0pTrAlrpGf2hF9uWrQyQuy?play=true&utm_source=open.spotify.com&utm_medium=open",
     "facebook": "",
     "youtube": "",
@@ -514,7 +514,7 @@ const artists = [
   {
     "name": "Billions Of Comrades",
     "album": "Rondate",
-    "cover": "CD billions.jpg",
+    "cover": "CD-billions.jpg",
     "website": "http://www.comrades.eu",
     "facebook": "",
     "youtube": "",
@@ -524,7 +524,7 @@ const artists = [
   {
     "name": "Disk-R",
     "album": "",
-    "cover": "CD diskr.jpg",
+    "cover": "CD-diskr.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -534,7 +534,7 @@ const artists = [
   {
     "name": "The Progerians",
     "album": "The Fabulous Progerians",
-    "cover": "CD prog.jpg",
+    "cover": "CD-prog.jpg",
     "website": "https://theprogerians.bandcamp.com/releases",
     "facebook": "",
     "youtube": "",
@@ -544,7 +544,7 @@ const artists = [
   {
     "name": "The Progerians",
     "album": "Vertigo EP",
-    "cover": "CD prog 2.jpg",
+    "cover": "CD-prog-2.jpg",
     "website": "https://theprogerians.bandcamp.com/releases",
     "facebook": "",
     "youtube": "",
@@ -554,7 +554,7 @@ const artists = [
   {
     "name": "Mokoomba",
     "album": "",
-    "cover": "CD mok.jpg",
+    "cover": "CD-mok.jpg",
     "website": "",
     "facebook": "https://www.facebook.com/pg/alpha2point1/about/?ref=page_internal",
     "youtube": "",
@@ -564,7 +564,7 @@ const artists = [
   {
     "name": "Alpha 2.1",
     "album": "ETERNITY",
-    "cover": "CD alpha.jpg",
+    "cover": "CD-alpha.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -574,7 +574,7 @@ const artists = [
   {
     "name": "Alaska Gold Rush",
     "album": "Wild jalopy of the mist",
-    "cover": "CD alaska.jpg",
+    "cover": "CD-alaska.jpg",
     "website": "https://alaskagoldrush.bandcamp.com",
     "facebook": "",
     "youtube": "https://www.youtube.com/watch?v=A4baB6G7IFE",
@@ -584,7 +584,7 @@ const artists = [
   {
     "name": "Mockingbirds",
     "album": "",
-    "cover": "CD mocking.jpg",
+    "cover": "CD-mocking.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -594,7 +594,7 @@ const artists = [
   {
     "name": "Sport Doen",
     "album": "The Wound",
-    "cover": "CD sport.jpg",
+    "cover": "CD-sport.jpg",
     "website": "",
     "facebook": "",
     "youtube": "",
@@ -604,7 +604,7 @@ const artists = [
   {
     "name": "The Progerians",
     "album": "Degeneration EP",
-    "cover": "CD prog 3.jpg",
+    "cover": "CD-prog-3.jpg",
     "website": "https://theprogerians.bandcamp.com/releases",
     "facebook": "",
     "youtube": "",
@@ -614,7 +614,7 @@ const artists = [
   {
     "name": "Slovenians",
     "album": "Frankie goes to Ljubljana",
-    "cover": "CD slo.jpg",
+    "cover": "CD-slo.jpg",
     "website": "http://www.slovenians.be/music/",
     "facebook": "",
     "youtube": "",
@@ -624,7 +624,7 @@ const artists = [
   {
     "name": "Mofo Party Plan",
     "album": "",
-    "cover": "CD mbo.jpg",
+    "cover": "CD-mbo.jpg",
     "website": "https://mofopartyplan.bandcamp.com",
     "facebook": "",
     "youtube": "https://www.youtube.com/watch?v=79-eKEFSAz0",
@@ -634,7 +634,7 @@ const artists = [
   {
     "name": "Joli coeur",
     "album": "",
-    "cover": "CD joli.jpg",
+    "cover": "CD-joli.jpg",
     "website": "https://soundcloud.com/joli-coeur/city",
     "facebook": "",
     "youtube": "",
@@ -644,7 +644,7 @@ const artists = [
   {
     "name": "Alaska Alaska",
     "album": "",
-    "cover": "CD aa.jpg",
+    "cover": "CD-aa.jpg",
     "website": "http://alaska-alaska.bandcamp.com/",
     "facebook": "",
     "youtube": "",
@@ -654,7 +654,7 @@ const artists = [
   {
     "name": "Maw sit sii",
     "album": "",
-    "cover": "CD maw.jpg",
+    "cover": "CD-maw.jpg",
     "website": "http://mawsittsii.bandcamp.com/releases",
     "facebook": "",
     "youtube": "",
@@ -664,7 +664,7 @@ const artists = [
   {
     "name": "Monday Penny",
     "album": "Quid",
-    "cover": "CD monday.jpg",
+    "cover": "CD-monday.jpg",
     "website": "http://www.deezer.com/album/10616124",
     "facebook": "",
     "youtube": "",

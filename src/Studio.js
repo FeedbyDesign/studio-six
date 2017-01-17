@@ -17,7 +17,7 @@ const Studio = () => {
   const childrenPics = galleryUrls.map((picUrl, i) => {
     return (
       <div key={i}>
-        <img src={picUrl} className="image" />
+        <img src={picUrl} className="image" alt="The Studio" />
       </div>
     )
   })
