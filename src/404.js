@@ -1,10 +1,13 @@
-// TODO:
 import React from 'react'
 
-const Error = () => {
-  return (
-    <div>The page does not exist</div>
-  )
+const errorStyle = {
+  textAlign: "center",
+  margin: "auto",
+  paddingBottom: "20vh"
 }
+
+const Error = () => (
+  <h1 style={errorStyle}>Sorry, this page does not exist</h1>
+)
 
 export default Error

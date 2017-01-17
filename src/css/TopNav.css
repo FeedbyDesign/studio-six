@@ -1,6 +1,43 @@
-.TopNav {
-  /*height: 20%;*/
-  /*float: left;*/
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0 50px 0;
+}
+#TopNav-logo--display {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+}
+.TopNav-logo {
+  height: 50px;
+  opacity: 1;
+  transition: height 0.5s linear, opacity .5s ease-out;
+}
+.TopNav-logo--hidden {
+  height: 0;
+  opacity: 0;
+  transition: height 0.5s linear, opacity .5s ease-out;
+}
+nav > a {
+  width: 130px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+}
+@media (max-width: 450px) {
+  nav > a {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
+.focus, nav >a:hover {
+  color: #E5007D;
+  text-decoration: none;
+}
+
+/*.TopNav {
   margin-bottom: 20px;
 }
 .flex-text {
@@ -34,6 +71,5 @@
 }
 .focus {
   display: inline-block;
-  font-size: 1.3em;
   color: #E5007D;
-}
+}*/
