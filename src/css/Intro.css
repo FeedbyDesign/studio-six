@@ -1,3 +1,11 @@
+@keyframes intro-logo-in {
+  0%   {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 #Intro {
   margin: auto;
   height: 50vh;
@@ -5,15 +13,7 @@
 }
 #intro-logo {
   max-height: 100%;
-}
-
-.anim_intro-logo-appear {
-  opacity: 0.01;
-}
-
-.anim_intro-logo-appear.anim_intro-logo-appear-active {
-  opacity: 1;
-  transition: opacity .5s ease-in;
+  animation: intro-logo-in 1s;
 }
 
 /*.intro-logo {
