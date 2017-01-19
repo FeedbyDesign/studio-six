@@ -8,22 +8,16 @@
   cursor: pointer;
 }
 .Equipment__drawer {
-  /*margin: 0 0 15px 0;*/
-  height: auto;
-  position: relative;
   visibility: visible;
   overflow: hidden;
   opacity: 1;
-  max-height: 780px;
-  transition: max-height 1s ease-in, opacity 1s;
+  transition: height 1s, opacity 1s;
 }
 .Equipment__drawer--hidden {
-  /*padding: 0 0 15px 0;*/
-  max-height: 0;
   overflow: hidden;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s linear 1s, max-height 1s ease-out, opacity 1s;
+  transition: visibility 0s linear 1s, height 1s, opacity 1s;
 }
 .Equipment__drawer:last-child, .Equipment__drawer--hidden:last-child {
   margin-bottom: 5px;

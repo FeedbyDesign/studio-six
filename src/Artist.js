@@ -35,10 +35,11 @@ class Artist extends Component {
   render() {
     let websiteLink=null, facebookLink=null, youtubeLink=null
     if (this.props.artistData.website) {
-      websiteLink = <span className="Artist-icon"><Link href={this.props.artistData.website} target="_blank" className="uk-icon-small uk-icon-external-link-square"></Link></span>
+      websiteLink = <span className="Artist-icon"><Link href={this.props.artistData.website} target="_blank" className="uk-icon-small uk-icon-music"></Link></span>
     }
     if (this.props.artistData.facebook) {
       facebookLink = <span className="Artist-icon"><Link href={this.props.artistData.facebook} target="_blank" className="uk-icon-small uk-icon-facebook-square"></Link></span>
+      // fb://page/Studio-Six-223846264367486/
     }
     if (this.props.artistData.youtube) {
       youtubeLink = <span className="Artist-icon"><Link href={this.props.artistData.youtube} target="_blank" className="uk-icon-small uk-icon-youtube-square"></Link></span>

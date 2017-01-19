@@ -65,7 +65,7 @@
 .TeamMember-contact--bar {
   color: black;
 }
-.TeamMember-contact--email:hover {
+.TeamMember-contacts a:hover {
   color: black;
   text-decoration: none;
 }
