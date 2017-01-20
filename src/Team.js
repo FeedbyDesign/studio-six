@@ -39,7 +39,7 @@ if (window) {
 const fbClick = () => {
   // setTimeout(function () { window.location = "https://www.facebook.com/223846264367486/"; }, 25);
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    window.location = "fb://page/223846264367486"
+    window.location = "fb://pages/223846264367486/"
     // window.location = "fb://page/223846264367486";
   }
   setTimeout(() => { window.open('https://www.facebook.com/223846264367486/', '_blank') }, 25);
