@@ -34,13 +34,15 @@ const members = [
 let email = null
 if (window) {
   email = "info@studiosix.eu"
-  email = <p className="Team-contact-item">Email the manager at <Link href={"mai"+"lto:"+email}>{email}</Link>.</p>
+  email = <p className="Team-contact-item">Email the manager at <Link href={"mailto:" + email}>{email}</Link>.</p>
 }
 const fbClick = () => {
   // setTimeout(function () { window.location = "https://www.facebook.com/223846264367486/"; }, 25);
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    window.location = "fb://page/223846264367486"
+    // window.location = "fb://page/223846264367486";
+  }
   setTimeout(() => { window.open('https://www.facebook.com/223846264367486/', '_blank') }, 25);
-  window.location = "fb://223846264367486";
-  // window.location = "fb://page/223846264367486";
 }
 //////
 
