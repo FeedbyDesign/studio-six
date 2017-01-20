@@ -30,11 +30,21 @@ const members = [
   }
 ]
 
+////// Bottom links for the studio
 let email = null
 if (window) {
-  email = "inf"+"o@stu"+"diosix.eu"
-  email = <p className="Team-contact-item">Email the manager at <Link href={"mai"+"lto:"+email}>{email}</Link>.</p>
+  email = "info@studiosix.eu"
+  email = <p className="Team-contact-item">Email the manager at <Link href={"mailto:" + email}>{email}</Link>.</p>
 }
+const fbClick = () => {
+  // setTimeout(function () { window.location = "https://www.facebook.com/223846264367486/"; }, 25);
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    window.location = "fb://pages/223846264367486/"
+    // window.location = "fb://page/223846264367486";
+  }
+  setTimeout(() => { window.open('https://www.facebook.com/223846264367486/', '_blank') }, 25);
+}
+//////
 
 const Team = () => {
 
@@ -42,11 +52,16 @@ const Team = () => {
 
     let contactSection = null
     if (window) {
+      ////// Phone link if mobile, else just a div
+      let phoneSection = <div className="TeamMember-contact">{"+32 " + member.contact.phone}</div>
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+       phoneSection = <a className="TeamMember-contact" href={"tel:+32" + member.contact.phone.split(' ').join('') }>{"+32 " + member.contact.phone}</a>
+      }//////
       contactSection = (
         <div className="TeamMember-contacts">
-          <div className="TeamMember-contact">{"+32 " + member.contact.phone}</div>
+          {phoneSection}
           <div className="TeamMember-contact TeamMember-contact--bar"> | </div>
-          <a href={"mai" + "lto:" + member.contact.email + "@studi" + "osix.eu"} target="_top" className="TeamMember-contact TeamMember-contact--email">{member.contact.email + "@studi" + "osix.eu"}</a>
+          <a href={"mailto:" + member.contact.email + "@studiosix.eu"} target="_top" className="TeamMember-contact">{member.contact.email + "@studi" + "osix.eu"}</a>
         </div>
       )
     }
@@ -79,7 +94,7 @@ const Team = () => {
         </p>
         {email}
         <p className="Team-contact-item">
-          And don't forget to <Link href="https://www.facebook.com/Studio-Six-223846264367486/" target="_blank" className="">follow us on facebook</Link>.
+          And don't forget to <Link onClick={fbClick} target="_blank" className="">follow us on facebook</Link>.
         </p>
       </div>
       <p className="feed">Website built with <i className="uk-icon-heart-o"></i> by <Link href="http://feedbydesign.com" target="_blank" className="">Feed by Design</Link></p>

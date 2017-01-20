@@ -28,6 +28,7 @@ const Studio = () => {
     className: "slider",
     // centerPadding: -50,
       dots: false,
+      arrows: false,
       infinite: true,
       speed: 500,
       slidesToShow: 3,

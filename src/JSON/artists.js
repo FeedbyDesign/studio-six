@@ -348,7 +348,7 @@ const artists = [
     "website": "",
     "facebook": "",
     "youtube": "",
-    "taskBy": "Recorded by Arnaud Chamay",
+    "taskBy": "Recorded by Arnaud Chamey",
     "importance": 1
   },
   {
@@ -428,7 +428,7 @@ const artists = [
     "website": "",
     "facebook": "",
     "youtube": "",
-    "taskBy": "Recorded by Arnaud Chamay",
+    "taskBy": "Recorded by Arnaud Chamey",
     "importance": 1
   },
   {
@@ -528,7 +528,7 @@ const artists = [
     "website": "",
     "facebook": "",
     "youtube": "",
-    "taskBy": "Recorded by Arnaud Chamay",
+    "taskBy": "Recorded by Arnaud Chamey",
     "importance": 1
   },
   {
@@ -624,7 +624,7 @@ const artists = [
   {
     "name": "Mofo Party Plan",
     "album": "",
-    "cover": "CD-mbo.jpg",
+    "cover": "CD-mofo.jpg",
     "website": "https://mofopartyplan.bandcamp.com",
     "facebook": "",
     "youtube": "https://www.youtube.com/watch?v=79-eKEFSAz0",

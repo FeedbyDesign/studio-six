@@ -6,14 +6,19 @@ class Equipment extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      open: false,
+      open: false
     }
   }
-  handleClick() {
+  handleClick(e) {
     if (this.state.open) {
       this.setState({open: false})
     } else {
       this.setState({open: true})
+
+      //// Test to scroll the page auto
+      // if (this.refs.list.getBoundingClientRect().bottom > window.innerHeight) {
+      //   window.scrollBy(0, this.refs.list.getBoundingClientRect().bottom - window.innerHeight)
+      // }
     }
   }
 
@@ -26,8 +31,13 @@ class Equipment extends Component {
     return (
       <div>
         <h2 className="Equipment__text--catname" onClick={this.handleClick.bind(this)}>{this.props.category}</h2>
-        <div className={this.state.open ? "Equipment__drawer" : "Equipment__drawer--hidden"}>
-          {list}
+        <div
+          className={this.state.open ? "Equipment__drawer" : "Equipment__drawer--hidden"}
+          style={this.state.open ? {height: this.refs.list.offsetHeight} : {height: 0}}
+          >
+          <div ref={"list"} >
+            {list}
+          </div>
         </div>
       </div>
 
