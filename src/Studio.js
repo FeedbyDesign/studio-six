@@ -6,7 +6,7 @@ import equipmentJson from './JSON/equipment.js'
 
 import Equipment from './Equipment.js'
 
-const imgNumber = 28
+const imgNumber = 29
 
 const Studio = () => {
   // Prepare array of pictures
