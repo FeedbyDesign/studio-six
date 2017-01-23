@@ -21,6 +21,7 @@ class App extends Component {
     for (let i = 0; i < 5; i++) {
       tempVar = process.env.PUBLIC_URL + "/photos/" + i + ".jpg"
     }
+    // Prelaod Artists pictures
     for (let i = 0; i < artistsJson.length; i++) {
       tempVar = process.env.PUBLIC_URL + "/covers/" + artistsJson[i]
     }
