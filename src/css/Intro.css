@@ -14,7 +14,7 @@
   height: 50vh;
   padding-bottom: 15vh;
 }
-@media (max-height: 455px) {
+@media (max-height: 456px) and (max-width: 450px) {
   #Intro {
     margin-top: -3vh;
     height: 40vh;
