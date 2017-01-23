@@ -15,6 +15,11 @@ class App extends Component {
   }
   componentDidMount() {
     this.setState({ currentPage: this.props.location.pathname })
+    // Preload studio pictures
+    let tempVar
+    for (let i = 0; i < 5; i++) {
+      tempVar = process.env.PUBLIC_URL + "/photos/" + i + ".jpg"
+    }
   }
   componentWillReceiveProps(nextProps) {
     this.setState({ currentPage: nextProps.location.pathname })
