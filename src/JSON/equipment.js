@@ -1,6 +1,6 @@
 const equipment = {
   "other": [
-    "Système protools HD2 software HD10.3",
+    "Système protools HD native software HD12",
     "Convertisseur digidesign 2 x 96 I/O  +  1 x 192 I/O" ,
     "32 input / 24 out" ,
     "BURL ADC BOOMER + clock",
@@ -80,6 +80,12 @@ const equipment = {
     "2 x radial active",
     "1 x radial stéréo passive",
     "2 x di beringer"
+  ],
+  "plugins": [
+    "UAD",
+    "Slate Digital",
+    "Soundtoys",
+    "... and many more"
   ],
   "bass": [
     "Ampeg SVT 4",

@@ -69,6 +69,7 @@ const Studio = () => {
             <Equipment category="Effect" equipmentList={equipmentJson["effect"]} />
             <Equipment category="Mics" equipmentList={equipmentJson["mic"]} />
             <Equipment category="DI" equipmentList={equipmentJson["di"]} />
+            <Equipment category="PLUGINS" equipmentList={equipmentJson["plugins"]} />
             <Equipment category="Other" equipmentList={equipmentJson["other"]} />
           </div>
           <div className="Studio-EquipmentList--2">
