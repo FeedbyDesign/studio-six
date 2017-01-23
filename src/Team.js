@@ -40,6 +40,13 @@ const fbClick = (e) => {
   const href = 'https://www.facebook.com/223846264367486/'
   const uri = 'fb://page/223846264367486/'
   e.preventDefault()
+
+  // window.open(href, '_blank')
+
+  // if(!window.open(uri)){
+  //   window.location = href
+  // }
+
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     if(!window.open(uri)){
       window.location = href
@@ -47,16 +54,15 @@ const fbClick = (e) => {
   } //else window.open(href, '_blank')
 
 
-  // const fbUrl = 'https://www.facebook.com/223846264367486/'
   // // setTimeout(function () { window.location = "https://www.facebook.com/223846264367486/"; }, 25);
   // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   //
-  //   // window.location = "fb://facewebmodal/f?href=" + fbUrl
+  //   // window.location = "fb://facewebmodal/f?href=" + href
   //   // window.location = "fb://profile/223846264367486/"
   //   // window.location = "fb://page/223846264367486/"
   //   window.location = "fb://page?id=%@223846264367486/"
   // }
-  // setTimeout(() => { window.open(fbUrl, '_blank') }, 25);
+  // setTimeout(() => { window.open(href, '_blank') }, 25);
 
 
 }
@@ -102,15 +108,12 @@ const Team = () => {
       </div>
       <div className="Team-contact">
         <p className="Team-contact-item">
-          Studio Six is located in&nbsp;
-          <Link
-            href="https://www.google.be/maps/place/1070+Anderlecht/@50.8374016,4.3034447,13.75z/data=!4m5!3m4!1s0x47c3a4d1b60305a9:0xeba77790dbb9a06f!8m2!3d50.8365808!4d4.308187"
-            target="_blank"
-            >Anderlecht - Brussels</Link>.
+          Studio Six is located in <span style={{color: "#E5007D"}}>Brussels (Anderlecht)</span>.
+
         </p>
         {email}
         <p className="Team-contact-item">
-          And don't forget to <Link onClick={fbClick} target="_blank" className="">follow us on facebook</Link>.
+          And don't forget to <Link onClick={fbClick} className="">follow us on facebook</Link>.
         </p>
       </div>
       <p className="feed">Website built with <i className="uk-icon-heart-o"></i> by <Link href="http://feedbydesign.com" target="_blank" className="">Feed by Design</Link></p>
