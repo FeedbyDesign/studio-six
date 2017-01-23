@@ -7,8 +7,8 @@
   }
 }
 #Intro {
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
 
   margin: auto;
   height: 50vh;
@@ -20,8 +20,12 @@
     height: 40vh;
   }
 }
+#Intro a {
+  display: block;
+  height: 100%;
+}
 #intro-logo {
-  flex-grow: 1;
+  /*flex-grow: 1;*/
   max-height: 100%;
   animation: intro-logo-in 1s;
 }
