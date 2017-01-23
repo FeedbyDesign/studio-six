@@ -39,10 +39,11 @@ if (window) {
 const fbClick = (e) => {
   const href = 'https://www.facebook.com/223846264367486/'
   const uri = 'fb://page/223846264367486/'
+  e.preventDefault()
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     if(!window.open(uri)){
-          window.location = href
-      }
+      window.location = href
+    }
   } //else window.open(href, '_blank')
 
 
@@ -57,7 +58,7 @@ const fbClick = (e) => {
   // }
   // setTimeout(() => { window.open(fbUrl, '_blank') }, 25);
 
-  e.preventDefault()
+
 }
 //////
 
