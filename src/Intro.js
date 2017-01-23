@@ -8,7 +8,7 @@ const Intro = () => {
   return (
     <div id="Intro">
       <Link to="/studio">
-        <img src={Logo} id="intro-logo" alt="Studio Six"></img>
+        <img src={Logo} id="intro-logo" alt="Studio Six - Rehearse more. Edit less."></img>
       </Link>
     </div>
   )
