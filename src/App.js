@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import { browserHistory } from 'react-router'
 
 import './css/App.css';
+import artistsJson from './JSON/artists.js'
 
 import TopNav from './TopNav.js'
 import GetInTouch from './GetInTouch.js'
@@ -19,6 +20,9 @@ class App extends Component {
     let tempVar
     for (let i = 0; i < 5; i++) {
       tempVar = process.env.PUBLIC_URL + "/photos/" + i + ".jpg"
+    }
+    for (let i = 0; i < artistsJson.length; i++) {
+      tempVar = process.env.PUBLIC_URL + "/covers/" + artistsJson[i]
     }
   }
   componentWillReceiveProps(nextProps) {
