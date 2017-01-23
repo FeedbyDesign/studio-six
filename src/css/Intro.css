@@ -27,7 +27,8 @@
 #intro-logo {
   /*flex-grow: 1;*/
   max-height: 100%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   animation: intro-logo-in 1s;
 }
 
