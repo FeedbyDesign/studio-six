@@ -36,17 +36,28 @@ if (window) {
   email = "info@studiosix.eu"
   email = <p className="Team-contact-item">Email the manager at <Link href={"mailto:" + email}>{email}</Link>.</p>
 }
-const fbClick = () => {
-  const fbUrl = 'https://www.facebook.com/223846264367486/'
-  // setTimeout(function () { window.location = "https://www.facebook.com/223846264367486/"; }, 25);
+const fbClick = (e) => {
+  const href = 'https://www.facebook.com/223846264367486/'
+  const uri = 'fb://page/223846264367486/'
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    if(!window.open(uri)){
+          window.location = href
+      }
+  } //else window.open(href, '_blank')
 
-    // window.location = "fb://facewebmodal/f?href=" + fbUrl
-    // window.location = "fb://profile/223846264367486/"
-    // window.location = "fb://page/223846264367486/"
-    window.location = "fb://page?id=%@223846264367486/"
-  }
-  setTimeout(() => { window.open(fbUrl, '_blank') }, 25);
+
+  // const fbUrl = 'https://www.facebook.com/223846264367486/'
+  // // setTimeout(function () { window.location = "https://www.facebook.com/223846264367486/"; }, 25);
+  // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  //
+  //   // window.location = "fb://facewebmodal/f?href=" + fbUrl
+  //   // window.location = "fb://profile/223846264367486/"
+  //   // window.location = "fb://page/223846264367486/"
+  //   window.location = "fb://page?id=%@223846264367486/"
+  // }
+  // setTimeout(() => { window.open(fbUrl, '_blank') }, 25);
+
+  e.preventDefault()
 }
 //////
 
