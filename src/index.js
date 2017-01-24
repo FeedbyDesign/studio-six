@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import App from './App';
-import UnderConstruction from './UnderConstruction';
-import './index.css';
+import { Router, browserHistory } from 'react-router'
+import routes from './routes.js'
+import './css/index.css';
 
 ReactDOM.render(
-  <UnderConstruction />,
+  <Router history={browserHistory} routes={routes} />,
   document.getElementById('root')
 );

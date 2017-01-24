@@ -1,0 +1,47 @@
+.Equipment__text--catname {
+  color: black;
+  background-color: #E5007D;
+  display: inline-block;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 0 4px 0 2px;
+  cursor: pointer;
+}
+.Equipment__drawer {
+  visibility: visible;
+  overflow: hidden;
+  opacity: 1;
+  transition: height 1s, opacity 1s;
+}
+.Equipment__drawer--hidden {
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 1s, height 1s, opacity 1s;
+}
+.Equipment__drawer:last-child, .Equipment__drawer--hidden:last-child {
+  margin-bottom: 5px;
+}
+.Equipment__drawer-element {
+  color: #E5007D;
+  text-transform: uppercase;
+}
+
+/*.iconWrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+.iconText {
+}
+.dropdown {
+  position: absolute;
+  bottom: 100%;
+  padding: 20px;
+}
+.dropdownWindow {
+  background-color: white;
+
+}
+.listElemDropdown {
+
+}*/

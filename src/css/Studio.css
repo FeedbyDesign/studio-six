@@ -1,0 +1,31 @@
+#Studio {
+  padding-bottom: 60px;
+}
+#Studio-sliderContainer {
+  min-height: 200px;
+  margin-bottom: 50px;
+}
+.image {
+  padding: 0 15px;
+}
+#Studio__text--equipment {
+  color: black;
+  background-color: white;
+  display: inline-block;
+  padding: 0 4px 0 2px;
+}
+#Studio-EquipmentList {
+  display: flex;
+}
+.Studio-EquipmentList--2 {
+  flex-grow: 1;
+  text-align: right;
+}
+@media (max-width: 500px) {
+  #Studio-EquipmentList {
+    flex-wrap: wrap;
+  }
+  .Studio-EquipmentList--2 {
+    flex-basis: 100%;
+  }
+}

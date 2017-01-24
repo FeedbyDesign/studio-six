@@ -1,0 +1,85 @@
+@keyframes intro-logo-in {
+  0%   {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#Intro {
+  text-align: center;
+  margin: auto;
+  height: 50vh;
+  padding-bottom: 15vh;
+}
+@media (max-height: 456px) and (max-width: 450px) {
+  #Intro {
+    margin-top: -3vh;
+    height: 40vh;
+  }
+}
+#Intro a {
+  display: block;
+  height: 100%;
+}
+#intro-logo {
+  /*flex-grow: 1;*/
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  animation: intro-logo-in 1s;
+}
+
+/*.intro-logo {
+  margin-top: 8vh;
+  max-height: 40vh;
+}*/
+
+/*
+.tagline {
+  width: 240px;
+  margin: auto;
+  margin-top: 10%;
+}
+.studio {
+  font-size: 4em;
+  line-height: 100%;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+}
+.six {
+  margin-top: -7px;
+  font-size: 4em;
+  line-height: 100%;
+  font-weight: bold;
+  text-align: left;
+  color: #E5007D;
+  letter-spacing: 9px;
+  display: inline;
+  float: left;
+}
+.block-small {
+  display: inline;
+  float: left;
+}
+.rehearse {
+  margin: 0 0 6px 0;
+  padding: 2px;
+  font-size: 0.73em;
+  line-height: 0.9em;
+  font-weight: bold;
+  text-align: left;
+  background-color: #E5007D;
+  color: white;
+}
+.edit {
+  padding: 3px 2px;
+  font-size: 1.3em;
+  line-height: 0.8em;
+  font-weight: bold;
+  text-align: left;
+  background-color: white;
+  color: balck;
+}
+*/
