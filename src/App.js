@@ -22,14 +22,14 @@ class App extends Component {
   componentDidMount() {
     this.setState({ currentPage: this.props.location.pathname })
     // Preload studio pictures
-    let tempVar
-    for (let i = 0; i < 5; i++) {
-      tempVar = process.env.PUBLIC_URL + "/photos/" + i + ".jpg"
-    }
-    // Prelaod Artists pictures
-    for (let i = 0; i < artistsJson.length; i++) {
-      tempVar = process.env.PUBLIC_URL + "/covers/" + artistsJson[i]
-    }
+    // let tempVar
+    // for (let i = 0; i < 5; i++) {
+    //   tempVar = process.env.PUBLIC_URL + "/photos/" + i + ".jpg"
+    // }
+    // // Prelaod Artists pictures
+    // for (let i = 0; i < artistsJson.length; i++) {
+    //   tempVar = process.env.PUBLIC_URL + "/covers/" + artistsJson[i]
+    // }
   }
   componentWillReceiveProps(nextProps) {
     this.setState({ currentPage: nextProps.location.pathname })
