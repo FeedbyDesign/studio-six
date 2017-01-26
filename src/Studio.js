@@ -1,6 +1,13 @@
 import React from 'react'
 import Slider from 'react-slick'
 
+import './css/slick.min.css'
+import './css/slick-theme.min.css'
+import './css/ajax-loader.gif'
+import './css/fonts/slick.eot'
+import './css/fonts/slick.ttf'
+import './css/fonts/slick.svg'
+
 import './css/Studio.css'
 import equipmentJson from './JSON/equipment.js'
 

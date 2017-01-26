@@ -9,14 +9,11 @@ import Team from './Team.js'
 import Error from './404.js'
 
 export default (
-  <div>
-    <Route path="/" component={App}>
-      <IndexRoute component={Intro} />
-      <Route path="/studio" component={() => (<Studio myProp="value" />)} />
-      <Route path="/artists" component={Artists} />
-      <Route path="/team" component={Team} />
-      <Route path="*" component={Error} />
-    </Route>
-
-  </div>
+  <Route path="/" component={App}>
+    <IndexRoute component={Intro} />
+    <Route path="/studio" component={() => (<Studio myProp="value" />)} />
+    <Route path="/artists" component={Artists} />
+    <Route path="/team" component={Team} />
+    <Route path="*" component={Error} />
+  </Route>
 )

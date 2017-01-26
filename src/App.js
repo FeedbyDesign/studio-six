@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 // import { browserHistory } from 'react-router'
 
+import './css/uikit.min.css'
+import './fonts/fontawesome-webfont.ttf'
+import './fonts/fontawesome-webfont.woff'
+import './fonts/fontawesome-webfont.woff2'
+import './fonts/FontAwesome.otf'
 import './css/App.css';
 import artistsJson from './JSON/artists.js'
 
