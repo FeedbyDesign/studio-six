@@ -47,7 +47,7 @@ class Studio extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      galleryUrls: []
+      galleryUrls: [process.env.PUBLIC_URL + "/photos/0.jpg"]
     }
   }
   componentDidMount() {
