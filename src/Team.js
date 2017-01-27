@@ -38,7 +38,7 @@ if (window) {
 }
 const fbClick = (e) => {
   const href = 'https://www.facebook.com/223846264367486/'
-  const uri = 'fb://page/223846264367486/'
+  // const uri = 'fb://page/223846264367486/'
   e.preventDefault()
 
   window.open(href, '_blank')

@@ -9,16 +9,14 @@ class Equipment extends Component {
       open: false
     }
   }
+  // componentDidMount() {
+  //   this.setState({open: false})
+  // }
   handleClick(e) {
     if (this.state.open) {
       this.setState({open: false})
     } else {
       this.setState({open: true})
-
-      //// Test to scroll the page auto
-      // if (this.refs.list.getBoundingClientRect().bottom > window.innerHeight) {
-      //   window.scrollBy(0, this.refs.list.getBoundingClientRect().bottom - window.innerHeight)
-      // }
     }
   }
 

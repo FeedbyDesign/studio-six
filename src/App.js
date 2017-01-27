@@ -7,7 +7,7 @@ import './fonts/fontawesome-webfont.woff'
 import './fonts/fontawesome-webfont.woff2'
 import './fonts/FontAwesome.otf'
 import './css/App.css';
-import artistsJson from './JSON/artists.js'
+// import artistsJson from './JSON/artists.js'
 
 import TopNav from './TopNav.js'
 import GetInTouch from './GetInTouch.js'
