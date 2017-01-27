@@ -74,7 +74,7 @@ class Studio extends Component {
           </Slider>
         </div>
         <div>
-          <h1 id="Studio__text--equipment">EQUIPMENT</h1>
+          <h1 id="Studio__text--equipment">EQUIPMENT 1</h1>
           <div id="Studio-EquipmentList">
             <div>
               <Equipment category="Tube Preamp" equipmentList={equipmentJson["tubePreamp"]} />
