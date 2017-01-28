@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.studiosix.eu/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.studiosix.eu/studio</loc>
+  </url>
+  <url>
+    <loc>https://www.studiosix.eu/artists</loc>
+  </url>
+  <url>
+    <loc>https://www.studiosix.eu/team</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.studiosix.eu/</loc>
+  </url>
+  <url>
+    <loc>http://www.studiosix.eu/studio</loc>
+  </url>
+  <url>
+    <loc>http://www.studiosix.eu/artists</loc>
+  </url>
+  <url>
+    <loc>http://www.studiosix.eu/team</loc>
+  </url>
+</urlset>
